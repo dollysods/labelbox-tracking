@@ -23,14 +23,24 @@ os.environ['PYTHONIOENCODING'] = 'utf-8'
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
                     handlers=[logging.StreamHandler(sys.stdout)])
 
-# Load environment variables and configurations
-load_dotenv()
-api_key = os.getenv("LABELBOX_API_KEY")
 
-# Initialize LabelBox client
-client = lb.Client(api_key=api_key)
+# First, check environment variables
+LABELBOX_API_KEY = os.getenv("LABELBOX_API_KEY")
 
-DOWNLOAD_PATH = r'exports'
+# Fallback to .env file (for local use)
+if not LABELBOX_API_KEY:
+    load_dotenv(override=True)  # Explicitly allow overriding from environment variables
+    LABELBOX_API_KEY = os.getenv("LABELBOX_API_KEY")
+
+# Raise an error if the API key is still missing
+if not LABELBOX_API_KEY:
+    raise ValueError("Labelbox API Key is not set in environment variables or .env file!")
+
+# Use the API key in the client
+client = lb.Client(api_key=LABELBOX_API_KEY)
+
+DOWNLOAD_PATH = os.path.join(os.getcwd(), "exports")
+
 
 def custom_encode_error_handler(error):
     return ('?', error.start + 1)
