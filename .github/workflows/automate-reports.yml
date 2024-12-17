@@ -1,0 +1,48 @@
+name: Automate Reports
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Runs every day at 6 AM UTC
+  push:
+    branches: [main]
+
+jobs:
+  generate-reports:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python
+      - name: Set Up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+
+      # Step 3: Install dependencies
+      - name: Install Python Dependencies
+        run: |
+          pip install pandas requests msal
+
+      # Step 4: Run tracking_export.py
+      - name: Run Tracking Export Script
+        run: python tracking_export.py
+
+      # Step 5: Run labelbox-tracking-txt.py
+      - name: Run TXT Report Script
+        run: python labelbox-tracking-txt.py
+
+      # Step 6: Run labelbox-tracking-csv.py
+      - name: Run CSV Report Script
+        run: python labelbox-tracking-csv.py
+
+      # Step 7: Commit and Push Reports
+      - name: Commit and Push Generated Reports
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add tracking_data/*.txt tracking_data/*.csv
+          git commit -m "Automated report generation: $(date)"
+          git push
