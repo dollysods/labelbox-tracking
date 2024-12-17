@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 6 * * *'  # Runs every day at 6 AM UTC
   push:
-    branches: [main]     # Trigger on push to main branch
+    branches: [main]
 
 jobs:
   generate-and-process-reports:
@@ -21,24 +21,30 @@ jobs:
         with:
           python-version: '3.x'
 
-      # Step 3: Install Python Dependencies
-      - name: Install Dependencies
+      # Step 3: Install python-dotenv Explicitly
+      - name: Install python-dotenv
         run: |
-          pip install pandas requests msal labelbox python-dotenv
+          pip install python-dotenv --force-reinstall
+          pip show dotenv  # Debug step to confirm installation
 
-      # Step 4: Run Tracking Export Script
+      # Step 4: Install Remaining Dependencies
+      - name: Install Other Dependencies
+        run: |
+          pip install pandas requests msal labelbox
+
+      # Step 5: Run Tracking Export Script
       - name: Run tracking_export.py (Export NDJSON/CSV)
         run: python tracking_export.py
 
-      # Step 5: Run labelbox-tracking-txt.py
+      # Step 6: Run labelbox-tracking-txt.py
       - name: Process Exports to TXT Report
         run: python labelbox-tracking-txt.py
 
-      # Step 6: Run labelbox-tracking-csv.py
+      # Step 7: Run labelbox-tracking-csv.py
       - name: Process Exports to CSV Report
         run: python labelbox-tracking-csv.py
 
-      # Step 7: Commit and Push All Outputs
+      # Step 8: Commit and Push All Outputs
       - name: Commit and Push Outputs
         run: |
           git config --global user.name "github-actions"
