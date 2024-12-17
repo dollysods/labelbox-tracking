@@ -25,7 +25,8 @@ jobs:
       - name: Install python-dotenv
         run: |
           pip install python-dotenv --force-reinstall
-          pip show dotenv  # Debug step to confirm installation
+          pip list | grep python-dotenv  # Verify installation
+          python -c "import dotenv; print('dotenv loaded successfully')"
 
       # Step 4: Install Remaining Dependencies
       - name: Install Other Dependencies
