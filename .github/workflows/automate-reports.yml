@@ -36,6 +36,9 @@ jobs:
       #Add Env variables
       - name: Set Environment Variables
         run: echo "LABELBOX_API_KEY=${{ secrets.LABELBOX_API_KEY }}" >> $GITHUB_ENV
+      - name: Debug Environment Variables
+        run: printenv | grep LABELBOX
+
 
       # Step 5: Run Tracking Export Script
       - name: Run tracking_export.py (Export NDJSON/CSV)
