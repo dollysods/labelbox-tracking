@@ -8,8 +8,18 @@ base_directory = r'exports'
 # Generate a date stamp
 date_stamp = datetime.now().strftime("%Y-%m-%d")
 
-# Output file with date stamp
-output_file = os.path.join("tracking_data", f"tracking_report_{date_stamp}.txt")
+# Output directory and file
+output_dir = "tracking_data"
+date_stamp = datetime.now().strftime("%Y-%m-%d")
+output_file = os.path.join(output_dir, f"tracking_report_{date_stamp}.txt")
+
+# Ensure the output directory exists
+os.makedirs(output_dir, exist_ok=True)
+
+# Write the report
+with open(output_file, 'w', encoding='utf-8') as f:
+    f.write("Your report content goes here...")  # Replace with actual report logic
+
 
 # Initialize the report data structure
 report_data = []
