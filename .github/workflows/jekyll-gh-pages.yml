@@ -45,8 +45,8 @@ jobs:
 
       - name: Set Git Identity
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "dollysods"
+          git config user.email "sochorg@hlcmail.com"
 
       - name: Commit Updated Index
         env:
