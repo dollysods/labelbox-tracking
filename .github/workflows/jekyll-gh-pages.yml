@@ -45,4 +45,20 @@ jobs:
           destination: ./_site
 
       - name: Debug Build Output
-  
+        run: |
+          echo "Contents of the build output directory (_site):"
+          ls -la _site/assets/tracking_data || echo "assets/tracking_data directory does not exist in the build output"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
