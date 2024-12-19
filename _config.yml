@@ -4,4 +4,6 @@ baseurl: ""
 url: "https://dollysods.github.io/labelbox-tracking"
 theme: minima
 exclude:
+  - tracking_data/
+include:
   - assets/tracking_data/

@@ -18,18 +18,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout Repository
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Step 2: Copy Tracking Data to Assets Directory
       - name: Copy Tracking Data
         run: |
           mkdir -p assets/tracking_data
           cp tracking_data/*.csv assets/tracking_data/ || echo "No CSV files found"
           cp tracking_data/*.txt assets/tracking_data/ || echo "No TXT files found"
 
-      # Step 3: Update Index with Latest File Links
       - name: Update Index with Latest Files
         run: |
           LATEST_CSV=$(ls -t tracking_data/*.csv | head -n 1 | xargs -n 1 basename)
@@ -43,29 +40,25 @@ jobs:
           echo "" >> index.md
           echo "Download the latest tracking data below:" >> index.md
           echo "" >> index.md
-          echo "- [CSV Report](assets/tracking_data/${LATEST_CSV})" >> index.md
-          echo "- [TXT Report](assets/tracking_data/${LATEST_TXT})" >> index.md
+          echo "- [CSV Report](/assets/tracking_data/${LATEST_CSV})" >> index.md
+          echo "- [TXT Report](/assets/tracking_data/${LATEST_TXT})" >> index.md
 
-      # Step 4: Debug Updated Index
       - name: Debug Updated Index
         run: |
           echo "Contents of index.md:"
           cat index.md
 
-      # Step 5: Build the Site with Jekyll
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
 
-      # Step 6: Debug Jekyll Build Output
-      - name: Debug Build Output
+      - name: Debug Jekyll Build Output
         run: |
           echo "Contents of the build output directory (_site):"
           ls -la _site/assets/tracking_data || echo "assets/tracking_data not found in _site"
 
-      # Step 7: Upload Artifact
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
 
@@ -76,7 +69,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      # Step 8: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
