@@ -21,14 +21,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      - name: Debug Tracking Data Directory
+        run: |
+          echo "Checking tracking_data directory:"
+          ls -la tracking_data || echo "tracking_data directory does not exist"
 
       - name: Copy Tracking Data
         run: |
           mkdir -p assets/tracking_data
-          cp tracking_data/*.csv assets/tracking_data/
-          cp tracking_data/*.txt assets/tracking_data/
+          cp tracking_data/*.csv assets/tracking_data/ || echo "No CSV files found"
+          cp tracking_data/*.txt assets/tracking_data/ || echo "No TXT files found"
+        working-directory: .
+
+      - name: Debug Assets Directory
+        run: |
+          echo "Contents of assets/tracking_data:"
+          ls -la assets/tracking_data || echo "assets/tracking_data directory not created"
 
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
@@ -36,16 +44,5 @@ jobs:
           source: ./
           destination: ./_site
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Debug Build Output
+  
