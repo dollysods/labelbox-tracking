@@ -61,7 +61,7 @@ jobs:
       # Step 6: Commit and Push Updated Index
       - name: Commit Updated Index
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -69,6 +69,7 @@ jobs:
           git add index.md
           git commit -m "Update index.md with latest file links" || echo "No changes to commit"
           git push origin main
+
 
       # Step 7: Build the Site with Jekyll
       - name: Build with Jekyll
