@@ -1,0 +1,1601 @@
+﻿dataset_name,row_data,created_at,dataset_id,Sentence_Count_schema_ID,Sentence_Count_schema_kind,Sentence_Count_value,Word_Count_schema_ID,Word_Count_value,Word_Count_schema_kind,Dale_Chall_Grade_schema_kind,Dale_Chall_Grade_schema_ID,Dale_Chall_Grade_value,Flesch_Kincaid_Grade_schema_ID,Flesch_Kincaid_Grade_schema_kind,Flesch_Kincaid_Grade_value,Spache_Grade_value,Spache_Grade_schema_kind,Spache_Grade_schema_ID,Final_Score_schema_kind,Final_Score_value,Final_Score_schema_ID,UUID_schema_ID,UUID_value,UUID_schema_kind,embeddings,labeller_1_email,labeller_1_items_labeled,labeller_1_time_minutes,labeller_2_email,labeller_2_items_labeled,labeller_2_time_minutes,labeller_3_email,labeller_3_items_labeled,labeller_3_time_minutes,labeller_4_email,labeller_4_items_labeled,labeller_4_time_minutes,labeller_5_email,labeller_5_items_labeled,labeller_5_time_minutes,labeller_6_email,labeller_6_items_labeled,labeller_6_time_minutes,labeller_7_email,labeller_7_items_labeled,labeller_7_time_minutes,labeller_8_email,labeller_8_items_labeled,labeller_8_time_minutes,labeller_9_email,labeller_9_items_labeled,labeller_9_time_minutes,labeller_10_email,labeller_10_items_labeled,labeller_10_time_minutes
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: My sister likes to _______ letters to her friends. The mailman comes every day. He must _______ many heavy bags of mail.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""speak"",
+            ""B"": ""draw"",
+            ""C"": ""type""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (type) is correct because it makes sense in the context of writing letters. Choice A (speak) is incorrect because you can't speak letters on paper. Choice B (draw) is incorrect because while you can draw on letters, the sentence implies writing correspondence.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""carry"",
+            ""B"": ""laugh"",
+            ""C"": ""jump""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (carry) is correct because mailmen need to carry bags of mail. Choice B (laugh) is incorrect because it doesn't make sense with 'heavy bags of mail.' Choice C (jump) is incorrect because jumping with heavy bags would not be a typical mail carrier action.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.2
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,25.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.4,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,2.8,3.0,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.0,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,c4aad07e-f35b-4a87-bab6-042705c51818,CustomMetadataString,,jbrodie09@gmail.com,1,0.5,isabella.e.sosa@gmail.com,1,1.1,margaretbrooks94@gmail.com,1,0.92,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The _______ puppy went to the park with its owner. The puppy had an exciting _______ chasing butterflies in the grass. It was a wonderful day for both of them.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""quick"",
+            ""B"": ""select"",
+            ""C"": ""bread""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (select) is correct because it describes a special or chosen puppy. Choice A (quick) is incorrect because while it could describe a puppy, it doesn't fit the context of the story. Choice C (bread) is incorrect because it's a noun and cannot be used as an adjective to describe the puppy.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""adventure"",
+            ""B"": ""smile"",
+            ""C"": ""happy""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (adventure) is correct because it describes the puppy's experience at the park. Choice B (smile) is incorrect because while it's also a noun, you cannot 'have a smile chasing butterflies.' Choice C (happy) is incorrect because it's an adjective and the sentence requires a noun.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.7
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,33.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.2,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.9,3.4,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,9f37033d-61e0-4c39-846c-73eee590b6a1,CustomMetadataString,,jbrodie09@gmail.com,1,2.5,isabella.e.sosa@gmail.com,1,0.83,margaretbrooks94@gmail.com,1,2.8,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The science teacher brought a _______ of the solar system to class. She wanted to _______ how planets orbit around the sun. All the students were excited to see the demonstration.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""graph"",
+            ""B"": ""model"",
+            ""C"": ""pencil""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (model) is correct because a model is a representation that shows how something works or looks, which fits the context of demonstrating the solar system. Choice A (graph) is incorrect because a graph wouldn't show planetary orbits effectively. Choice C (pencil) is incorrect because it's not something that could demonstrate the solar system.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""clarify"",
+            ""B"": ""jump"",
+            ""C"": ""whisper""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (clarify) is correct because the teacher wants to make the concept clear or easier to understand. Choice B (jump) is incorrect because it's not related to explaining or teaching. Choice C (whisper) is incorrect because whispering wouldn't help explain planetary orbits to the class.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 5.4
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,34.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,8.7,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,5.1,5.1,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.3,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,524fd0b8-0e52-4933-8963-5a1c83164711,CustomMetadataString,,jbrodie09@gmail.com,1,0.75,isabella.e.sosa@gmail.com,1,0.95,margaretbrooks94@gmail.com,1,0.8,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The baker must _______ the dough for an hour. The _______ at the market was busy today. Fresh bread was ready to sell.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""explain"",
+            ""B"": ""process"",
+            ""C"": ""smile""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (process) is correct because it means to handle or prepare something in a specific way, which is what a baker does with dough. Choice A (explain) is incorrect because you don't explain dough. Choice C (smile) is incorrect because you can't smile dough.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""jump"",
+            ""B"": ""store"",
+            ""C"": ""trade""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (trade) is correct because it refers to buying and selling activity at a market. Choice A (jump) is incorrect because it's a verb and doesn't make sense in context. Choice B (store) is incorrect because while related to commerce, it doesn't fit the context of describing market activity.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.1
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,26.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.4,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,1.7,3.4,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.0,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,dd1197f1-2e67-4df0-a926-c99d76a4fc35,CustomMetadataString,,jbrodie09@gmail.com,1,0.82,isabella.e.sosa@gmail.com,1,1.3,margaretbrooks94@gmail.com,1,1.6,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: Billy enjoyed searching for rocks near the stream. The _______ badge activities were fun for all scouts to complete. Each week, the scouts would _______ new rocks to study.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""hungry"",
+            ""B"": ""optional"",
+            ""C"": ""purple""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (optional) is correct because it describes activities that scouts can choose to do but don't have to. Choice A (hungry) is incorrect because activities cannot be hungry. Choice C (purple) is incorrect because color doesn't make sense in describing badge activities.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""dance"",
+            ""B"": ""sing"",
+            ""C"": ""collect""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (collect) is correct because it means to gather items, which makes sense with gathering rocks. Choice A (dance) is incorrect because you cannot dance rocks. Choice B (sing) is incorrect because rocks cannot be sung.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 5.3
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,33.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.9,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.5,5.8,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.3,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,593810c6-fee6-4990-99ff-b577725f1dcc,CustomMetadataString,,jbrodie09@gmail.com,1,0.35,isabella.e.sosa@gmail.com,1,3.15,margaretbrooks94@gmail.com,1,1.42,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The small bird used its _______ to crack open seeds. The _______ of a penguin waddled across the snow. I love watching different types of birds at the zoo.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""wing"",
+            ""B"": ""beak"",
+            ""C"": ""nest""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (beak) is correct because birds use their beaks to crack open seeds. Choice A (wing) is incorrect because wings are used for flying, not cracking seeds. Choice C (nest) is incorrect because a nest is where birds live, not a body part used for eating.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""figure"",
+            ""B"": ""picture"",
+            ""C"": ""jumped""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (figure) is correct because it refers to the shape or form of the penguin. Choice B (picture) is incorrect because a picture cannot waddle. Choice C (jumped) is incorrect because it's a verb and doesn't make sense in the context of something waddling.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.1
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,32.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.9,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.1,4.0,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,20916eb2-773a-4264-a285-aedb64b8cc9b,CustomMetadataString,,jbrodie09@gmail.com,1,0.75,isabella.e.sosa@gmail.com,1,1.13,margaretbrooks94@gmail.com,1,2.47,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The little puppy played in the yard. Tommy was _______ to find his lost ball there. He _______ to play with the puppy all afternoon.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fills in the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""upset"",
+            ""B"": ""fortunate"",
+            ""C"": ""purple""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (fortunate) is correct because it means 'lucky' and makes sense in the context of Tommy finding his lost ball. Choice A (upset) is incorrect because finding a lost ball would make someone happy, not upset. Choice C (purple) is incorrect because it's a color adjective that doesn't make sense in describing how someone feels about finding something.""
+        },
+        ""question_2"": ""Which word best fills in the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""loved"",
+            ""B"": ""jumped"",
+            ""C"": ""green""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (loved) is correct because it expresses Tommy's feelings about playing with the puppy and fits the sentence structure. Choice B (jumped) is incorrect because while it's a verb, it doesn't make sense with 'to play' following it. Choice C (green) is incorrect because it's an adjective and doesn't work as a verb in this sentence.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.2
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,28.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.9,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,2.7,3.0,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.0,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,5075d593-101d-43d9-a590-13227be00f76,CustomMetadataString,,jbrodie09@gmail.com,1,0.67,isabella.e.sosa@gmail.com,1,0.43,margaretbrooks94@gmail.com,1,1.85,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: Sarah loves to play in the park. I _______ she will be there today after school. Her friends always _______ fun games to play together.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""dream"",
+            ""B"": ""presume"",
+            ""C"": ""climb""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B 'presume' is correct because it means to believe something is true without proof, which fits the context of thinking Sarah will be at the park. Choice A 'dream' is incorrect because it describes sleeping thoughts, not a reasonable guess. Choice C 'climb' is incorrect because it's a physical action that doesn't fit the sentence meaning.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""speak"",
+            ""B"": ""walk"",
+            ""C"": ""imagine""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C 'imagine' is correct because it means to think up or create in your mind, which fits with creating fun games. Choice A 'speak' is incorrect because simply talking doesn't create games. Choice B 'walk' is incorrect because it's a physical movement that doesn't relate to creating games.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.1
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,28.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.6,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,2.2,3.0,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.0,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,520bdf75-e599-44dc-8203-4936cd42b199,CustomMetadataString,,jbrodie09@gmail.com,1,0.67,isabella.e.sosa@gmail.com,1,1.52,margaretbrooks94@gmail.com,1,1.97,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: My _______ and I were working on our science project together. I tried to _______ her that my idea would work better. We ended up using both of our ideas in the end.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fills in the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""teacher"",
+            ""B"": ""classmate"",
+            ""C"": ""pencil""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (classmate) is correct because the context shows two students working together on a project. Choice A (teacher) is incorrect because teachers typically guide rather than work alongside students on projects. Choice C (pencil) is incorrect because it's an object, not a person.""
+        },
+        ""question_2"": ""Which word best fills in the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""convince"",
+            ""B"": ""jump"",
+            ""C"": ""sleep""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (convince) is correct because the sentence shows one student trying to persuade another about an idea. Choice B (jump) is incorrect because physically jumping doesn't fit the context of discussing project ideas. Choice C (sleep) is incorrect because sleeping isn't related to sharing or discussing ideas.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.8
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,36.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.1,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.6,3.4,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,d6941e60-5510-4f1c-a22f-3a0d9705e2e3,CustomMetadataString,,jbrodie09@gmail.com,1,0.83,isabella.e.sosa@gmail.com,1,0.78,margaretbrooks94@gmail.com,1,1.45,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: My sister loves to read new books. The librarian will _______ good stories for young readers. Every _______ of the library is full of adventure.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""speak"",
+            ""B"": ""recommend"",
+            ""C"": ""jump""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (recommend) is correct because librarians suggest or recommend books to readers. Choice A (speak) doesn't fit the context of helping choose books. Choice C (jump) is a completely unrelated action verb.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""part"",
+            ""B"": ""laugh"",
+            ""C"": ""shelf""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (part) is correct because it refers to a section or area of the library. Choice B (laugh) is a verb and doesn't make sense as a noun in this context. Choice C (shelf) is too specific and doesn't work with 'every' in this context.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.4
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,28.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.9,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,4.6,4.1,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,bfcc6c32-4e25-407c-89d5-f5a348d7f931,CustomMetadataString,,jbrodie09@gmail.com,1,0.88,isabella.e.sosa@gmail.com,1,1.53,margaretbrooks94@gmail.com,1,2.12,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The chef needed to _______ the recipe to make it less spicy. When looking at cookbooks, we _______ to the index to find specific dishes. The kitchen was filled with wonderful cooking smells.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""taste"",
+            ""B"": ""paint"",
+            ""C"": ""modify""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (modify) is correct because the chef needs to change or adjust the recipe to make it less spicy. Choice A (taste) is incorrect because while related to cooking, it doesn't mean to change something. Choice B (paint) is incorrect because it's completely unrelated to changing a recipe.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""refer"",
+            ""B"": ""jump"",
+            ""C"": ""whisper""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (refer) is correct because when looking something up in a book's index, we refer to it to find information. Choice B (jump) is incorrect because it's a physical action unrelated to looking up information. Choice C (whisper) is incorrect because speaking quietly has nothing to do with finding information in an index.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 5.2
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,37.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,8.0,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,5.0,4.7,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.3,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,b996ac53-f696-45f3-9b2f-f174b0b928f2,CustomMetadataString,,jbrodie09@gmail.com,1,0.78,isabella.e.sosa@gmail.com,1,1.67,margaretbrooks94@gmail.com,1,1.55,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: My sister loves to play basketball. She _______ goes to the park after school. She _______ shooting free throws for an hour.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""never"",
+            ""B"": ""usually"",
+            ""C"": ""quickly""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B 'usually' is correct because it shows how often the action occurs, which makes sense in the context of a regular activity. Choice A 'never' is incorrect because it contradicts the sister's love of basketball. Choice C 'quickly' is incorrect because the sentence needs an adverb of frequency, not manner.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""practices"",
+            ""B"": ""watches"",
+            ""C"": ""jumps""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A 'practices' is correct because it shows what she does to improve her basketball skills. Choice B 'watches' is incorrect because it's passive and doesn't match the action of shooting free throws. Choice C 'jumps' is incorrect because it doesn't make sense with 'shooting free throws.'""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.4
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,25.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.2,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,1.7,3.8,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,c61e1b41-45db-4bdb-a2b4-b6b4c6109856,CustomMetadataString,,jbrodie09@gmail.com,1,0.6,isabella.e.sosa@gmail.com,1,2.0,margaretbrooks94@gmail.com,1,2.22,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The sun was shining on the beach. The _______ shells sparkled in the sand. Mary picked up a complete _______ of shells to take home.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""loud"",
+            ""B"": ""bright"",
+            ""C"": ""soft""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (bright) is correct because shells that sparkle in the sun would be bright. Choice A (loud) is incorrect because loud is used to describe sound, not appearance. Choice C (soft) is incorrect because soft describes texture, not the visual appearance of sparkling shells.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""box"",
+            ""B"": ""set"",
+            ""C"": ""walk""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (set) is correct because a set is a collection of similar items, which makes sense for collecting shells. Choice A (box) could work but is less precise than 'set' in this context. Choice C (walk) is incorrect because it's a verb and doesn't make sense as a collection of shells.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.7
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,28.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.2,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,1.7,4.1,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,f10f52cf-ce35-4f95-876f-484a4d289238,CustomMetadataString,,jbrodie09@gmail.com,1,3.2,isabella.e.sosa@gmail.com,1,3.18,margaretbrooks94@gmail.com,1,1.68,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The amusement park was very busy today. My sister wanted to _______ me how to ride the big roller _______. We had so much fun at the park.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""show"",
+            ""B"": ""teach"",
+            ""C"": ""jump""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (teach) is correct because it fits the context of someone helping another person learn how to do something. Choice A (show) is incorrect because while close in meaning, the sentence specifically refers to instruction. Choice C (jump) is incorrect because it's not related to instruction and doesn't make sense in context.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""pillow"",
+            ""B"": ""window"",
+            ""C"": ""coaster""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (coaster) is correct because it completes the term 'roller coaster' which is a ride commonly found at amusement parks. Choice A (pillow) is incorrect because it's not related to amusement parks. Choice B (window) is incorrect because while it's also a noun, it doesn't make sense in the context of an amusement park ride.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.7
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,31.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.8,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.5,3.4,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,4997f19d-3031-45c8-b708-981176fbabf1,CustomMetadataString,,jbrodie09@gmail.com,1,0.95,isabella.e.sosa@gmail.com,1,0.48,margaretbrooks94@gmail.com,1,1.55,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: Billy wanted to read the new _______ of his favorite comic book. His little sister tried to _______ his plan by hiding the book. Finally, he found it under her pillow.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""cookie"",
+            ""B"": ""version"",
+            ""C"": ""pencil""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (version) is correct because it means a particular form of something, which makes sense when talking about a comic book. Choice A (cookie) is incorrect because a cookie is not related to reading material. Choice C (pencil) is incorrect because you don't read a pencil.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""oppose"",
+            ""B"": ""laugh"",
+            ""C"": ""dance""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (oppose) is correct because it means to go against or resist something, which is what the sister was doing to Billy's plan. Choice B (laugh) is incorrect because laughing doesn't prevent someone from doing something. Choice C (dance) is incorrect because dancing is not related to stopping someone's plan.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.4
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,35.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.7,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,4.7,4.0,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,ef7fc7bf-dc46-42ab-b067-e78a83c3e072,CustomMetadataString,,jbrodie09@gmail.com,1,0.78,isabella.e.sosa@gmail.com,1,1.42,margaretbrooks94@gmail.com,1,1.38,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: My mom planted tomatoes in the garden. The _______ grew very tall in the summer sun. I am _______ watching the plants grow bigger each day.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fills in the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""fruit"",
+            ""B"": ""vegetable"",
+            ""C"": ""animal""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (vegetable) is correct because tomatoes are vegetables that grow in gardens. Choice A (fruit) is incorrect because while tomatoes are technically fruits, in this context we're talking about garden growing. Choice C (animal) is incorrect because animals don't grow from gardens like plants do.""
+        },
+        ""question_2"": ""Which word best fills in the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""slowly"",
+            ""B"": ""happily"",
+            ""C"": ""currently""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (currently) is correct because it indicates the action is happening in the present time. Choice A (slowly) is incorrect because it describes how something happens, not when. Choice B (happily) is incorrect because it describes an emotional state, not a time reference.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.8
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,29.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.5,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.1,3.7,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,6c9dd420-f640-4809-bea3-ba2d2ab0205a,CustomMetadataString,,jbrodie09@gmail.com,1,0.8,isabella.e.sosa@gmail.com,1,1.22,margaretbrooks94@gmail.com,1,1.62,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: Tom planted seeds in his garden. He counted the _______ of plants that grew. Each _______ plant gave him fresh vegetables.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fits the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""chair"",
+            ""B"": ""number"",
+            ""C"": ""pencil""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (number) is correct because we need a noun that refers to counting items. Choice A (chair) is incorrect because it's unrelated to counting. Choice C (pencil) is incorrect because it's not related to counting things.""
+        },
+        ""question_2"": ""Which word best fits the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""bean"",
+            ""B"": ""rock"",
+            ""C"": ""shoe""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (bean) is correct because beans are plants that grow in gardens and provide vegetables. Choice B (rock) is incorrect because rocks aren't plants. Choice C (shoe) is incorrect because shoes aren't plants and don't grow in gardens.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.1
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,24.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.2,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,2.2,3.1,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.0,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,a26d32c9-9c98-4bca-83ed-74bcd90a17b6,CustomMetadataString,,jbrodie09@gmail.com,1,0.83,isabella.e.sosa@gmail.com,1,2.02,margaretbrooks94@gmail.com,1,1.32,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: In art class today, we used clay as our _______. The small sculptures will _______ animals from the forest. The teacher showed us how to shape the clay carefully.
+
+Question: [
+    {
+        ""question_1"": ""What word best fills in the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""picture"",
+            ""B"": ""material"",
+            ""C"": ""pencil""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (material) is correct because clay is a type of material used in art. Choice A (picture) is incorrect because it's not something you can use clay as. Choice C (pencil) is incorrect because clay cannot be used as a pencil.""
+        },
+        ""question_2"": ""What word best fills in the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""represent"",
+            ""B"": ""walk"",
+            ""C"": ""paint""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (represent) is correct because the sculptures are being made to look like or stand for forest animals. Choice B (walk) is incorrect because sculptures cannot physically walk. Choice C (paint) is incorrect because the sentence is about clay sculptures, not painting.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.4
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,33.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.7,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,4.4,4.3,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,3ba268fb-50c0-42da-8875-525aacf04bc7,CustomMetadataString,,jbrodie09@gmail.com,1,0.57,isabella.e.sosa@gmail.com,1,0.95,margaretbrooks94@gmail.com,1,1.15,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The pizza had a _______ shape. The toppings would _______ depending on what people ordered. Everyone loved getting pizza on Friday nights.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""square"",
+            ""B"": ""circular"",
+            ""C"": ""tasty""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (circular) is correct because pizzas are typically round in shape. Choice A (square) is incorrect because while some pizzas can be square, traditional pizzas are round. Choice C (tasty) is incorrect because it describes flavor, not shape.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""vary"",
+            ""B"": ""eat"",
+            ""C"": ""happy""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (vary) is correct because toppings change or differ based on what people order. Choice B (eat) is incorrect because it doesn't make sense in the context of toppings changing. Choice C (happy) is incorrect because it's an adjective and the sentence requires a verb.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 5.2
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,25.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.9,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,6.0,4.6,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.3,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,ce2b8969-fc2c-4bdb-b0d7-1babd59daadf,CustomMetadataString,,jbrodie09@gmail.com,1,0.78,isabella.e.sosa@gmail.com,1,2.53,margaretbrooks94@gmail.com,1,1.27,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The big storm _______ to damage our house. The security system _______ locks all doors at night. Dark clouds are gathering in the sky.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""screams"",
+            ""B"": ""threatens"",
+            ""C"": ""jumps""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (threatens) is correct because it makes sense in the context of a storm potentially causing damage. Choice A (screams) is incorrect because storms don't literally scream. Choice C (jumps) is incorrect because storms don't jump.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""quietly"",
+            ""B"": ""slowly"",
+            ""C"": ""automatically""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (automatically) is correct because it describes how a security system works by itself. Choice A (quietly) is incorrect because while a system might work quietly, it doesn't fit the context of how the system operates. Choice B (slowly) is incorrect because security systems typically work instantly, not slowly.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.6
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,27.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.7,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,2.7,5.2,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,324076dc-3741-4dce-9ebb-9221adbc6d8f,CustomMetadataString,,jbrodie09@gmail.com,1,0.58,isabella.e.sosa@gmail.com,1,0.65,margaretbrooks94@gmail.com,1,1.28,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The young scientists went to the museum. They wanted to _______ the new dinosaur exhibit. The students learned to _______ microscopes to study small rocks.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""jump"",
+            ""B"": ""explore"",
+            ""C"": ""green""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (explore) is correct because it makes sense to explore an exhibit at a museum. Choice A (jump) is incorrect because you wouldn't jump an exhibit. Choice C (green) is incorrect because it's an adjective and doesn't fit the verb position in the sentence.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""utilize"",
+            ""B"": ""happy"",
+            ""C"": ""sing""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (utilize) is correct because it means to use something, which makes sense with microscopes. Choice B (happy) is incorrect because it's an adjective and doesn't fit the verb position. Choice C (sing) is incorrect because you can't sing microscopes.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 5.5
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,28.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,9.1,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,5.0,5.1,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.4,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,9ffa2296-5513-4e9d-8737-9e8750518838,CustomMetadataString,,jbrodie09@gmail.com,1,0.65,isabella.e.sosa@gmail.com,1,0.85,margaretbrooks94@gmail.com,1,1.08,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The sun gives plants the _______ they need to grow. My teacher made an _______ about why the plants weren't growing well. The problem was actually that they weren't getting enough water.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fits the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""force"",
+            ""B"": ""energy"",
+            ""C"": ""light""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (energy) is correct because plants need energy from the sun for photosynthesis. Choice A (force) is incorrect because plants don't need force to grow. Choice C (light) is incorrect because while related, the sentence structure requires a noun that represents what plants use, and energy is more precise in this context.""
+        },
+        ""question_2"": ""Which word best fits the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""assumption"",
+            ""B"": ""guess"",
+            ""C"": ""worried""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (assumption) is correct because it describes what the teacher thought about the situation. Choice B (guess) is incorrect because while similar in meaning, it's too casual for the context. Choice C (worried) is incorrect because it's a different part of speech (adjective) and doesn't fit grammatically in the sentence.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.2
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,37.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.1,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,4.3,3.7,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,6757fba7-ee25-4299-a6a3-716250c2cd87,CustomMetadataString,,jbrodie09@gmail.com,1,0.97,isabella.e.sosa@gmail.com,1,0.97,margaretbrooks94@gmail.com,1,1.27,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The science fair was exciting for all students. Tommy's _______ about the weather was very accurate. The solar system _______ won first place at the fair.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fills in the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""guess"",
+            ""B"": ""prediction"",
+            ""C"": ""sing""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (prediction) is correct because it means a statement about what will happen in the future, which fits with making a forecast about the weather. Choice A (guess) is incorrect because while similar, it's less scientific. Choice C (sing) is incorrect because it's a verb and doesn't make sense in the context.""
+        },
+        ""question_2"": ""Which word best fills in the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""dance"",
+            ""B"": ""story"",
+            ""C"": ""project""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (project) is correct because it refers to a science fair display or experiment, which would be judged at a science fair. Choice A (dance) is incorrect because it's not related to science fairs. Choice B (story) is incorrect because while it's also a noun, it doesn't fit the context of a science fair entry.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 5.3
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,30.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,8.9,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,4.5,5.0,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.3,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,573dd238-fa26-4d0b-b931-cae770abedc8,CustomMetadataString,,jbrodie09@gmail.com,1,0.72,isabella.e.sosa@gmail.com,1,0.4,margaretbrooks94@gmail.com,1,0.52,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: My brother _______ helps with the dishes after dinner. The astronauts needed more _______ in their ship to store supplies. They worked hard to organize everything properly.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""quickly"",
+            ""B"": ""rarely"",
+            ""C"": ""loudly""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B ('rarely') is correct because it properly describes how often the action occurs. Choice A ('quickly') is incorrect because it describes speed rather than frequency. Choice C ('loudly') is incorrect because it describes volume rather than frequency.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""space"",
+            ""B"": ""book"",
+            ""C"": ""jump""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A ('space') is correct because astronauts need room in their ship for supplies. Choice B ('book') is incorrect because a book wouldn't help store supplies. Choice C ('jump') is incorrect because it's a verb and doesn't make sense in the context of storage.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 5.2
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,30.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.0,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,6.2,4.3,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.3,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,1a7db495-af7e-4ba5-a300-a5d3cad40f6b,CustomMetadataString,,jbrodie09@gmail.com,1,1.35,isabella.e.sosa@gmail.com,1,1.83,margaretbrooks94@gmail.com,1,1.53,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The computer club met after school. Students learned how to write a simple _______ for a game. The teacher showed us the _______ version of Pong on an old TV.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""book"",
+            ""B"": ""code"",
+            ""C"": ""song""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B 'code' is correct because the context involves computer programming and making games. Choice A 'book' is incorrect because you don't write a book for a game. Choice C 'song' is incorrect because songs aren't typically written for computer games in this context.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""happy"",
+            ""B"": ""original"",
+            ""C"": ""loud""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B 'original' is correct because it describes the first or earliest version of the Pong game. Choice A 'happy' is incorrect because games cannot be happy. Choice C 'loud' is incorrect because volume isn't relevant to describing a version of a game.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.9
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,33.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.8,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.6,5.1,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.3,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,4aab47d7-2a83-4575-92c9-5c63c4383102,CustomMetadataString,,jbrodie09@gmail.com,1,0.63,isabella.e.sosa@gmail.com,1,0.48,margaretbrooks94@gmail.com,1,1.27,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: My brother and I _______ over who would get the last cookie. Mom _______ our toys into separate boxes for each of us. The fight ended when she split the cookie in half.
+
+Question: [
+    {
+        ""question_1"": ""What word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""laughed"",
+            ""B"": ""disputed"",
+            ""C"": ""walked""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (disputed) is correct because it means to argue or disagree about something, which fits the context of fighting over the last cookie. Choice A (laughed) doesn't make sense because the sentence indicates conflict. Choice C (walked) is incorrect because physical movement isn't related to the conflict described.""
+        },
+        ""question_2"": ""What word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""organized"",
+            ""B"": ""jumped"",
+            ""C"": ""screamed""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (organized) is correct because it means to arrange items in an orderly way, which matches the context of sorting toys into boxes. Choice B (jumped) is incorrect because physical movement doesn't fit the context. Choice C (screamed) is incorrect because making noise isn't related to arranging toys.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.2
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,36.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.6,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.3,4.2,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,c87a2a53-ef34-4aea-85c5-aa81d6c088ac,CustomMetadataString,,jbrodie09@gmail.com,1,0.85,isabella.e.sosa@gmail.com,1,1.45,,,,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The kids played soccer at recess. The _______ game was much shorter than today's match. The two teams _______ about who scored the winning goal.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""heavy"",
+            ""B"": ""previous"",
+            ""C"": ""jumping""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (previous) is correct because it makes sense in describing a game that happened before the current one. Choice A (heavy) is incorrect because a game cannot be heavy. Choice C (jumping) is incorrect because it's not logical to describe a game as jumping.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""argued"",
+            ""B"": ""smiled"",
+            ""C"": ""tall""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (argued) is correct because it shows what the teams did when disagreeing about the goal. Choice B (smiled) is incorrect because it doesn't make sense in the context of a disagreement. Choice C (tall) is incorrect because it's an adjective and the sentence requires a verb.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.9
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,29.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.2,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.2,5.5,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.3,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,5d98e38f-8687-48d4-bdbf-79eff56a7de8,CustomMetadataString,,jbrodie09@gmail.com,1,0.63,isabella.e.sosa@gmail.com,1,0.68,,,,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The teacher will _______ new books to the class tomorrow. The students were excited to read in the quiet _______ of the library. They couldn't wait to start their new stories.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""smile"",
+            ""B"": ""distribute"",
+            ""C"": ""whisper""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (distribute) is correct because it means to give out or hand out items to people, which makes sense in the context of giving books to students. Choice A (smile) is incorrect because it's a verb that doesn't relate to giving out items. Choice C (whisper) is incorrect because it's a verb that relates to speaking quietly, not giving out items.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""door"",
+            ""B"": ""smile"",
+            ""C"": ""area""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (area) is correct because it refers to a space or section, which makes sense when describing a part of the library. Choice A (door) is incorrect because while it's also a noun, it doesn't fit the context of describing a space in the library. Choice B (smile) is incorrect because it's a different part of speech (can be a verb or noun) and doesn't make sense in describing a library space.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.1
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,35.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.7,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.9,4.0,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,a67bdbb5-c163-4b83-b8ad-c632b1062538,CustomMetadataString,,jbrodie09@gmail.com,1,0.68,isabella.e.sosa@gmail.com,1,1.5,bspies38@hotmail.com,1,0.83,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The garden was ready for spring planting. The _______ was dark and rich with nutrients. Dad bought a new _______ to help make the rows straight.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""desk"",
+            ""B"": ""soil"",
+            ""C"": ""lamp""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (soil) is correct because it makes sense in the context of a garden and planting. The sentence describes the ground being rich with nutrients. Choice A (desk) is incorrect because a desk isn't related to gardening. Choice C (lamp) is incorrect because a lamp wouldn't be described as dark and rich with nutrients.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""pencil"",
+            ""B"": ""book"",
+            ""C"": ""roller""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (roller) is correct because a roller is a tool that can help make straight rows in a garden. Choice A (pencil) is incorrect because while it can make straight lines, it's not a gardening tool. Choice B (book) is incorrect because it's not a tool that could help make rows in a garden.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 2.8
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,29.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.9,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,1.3,3.1,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.0,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,20cf8ef0-b8ea-45ac-831a-c94e33bd68cb,CustomMetadataString,,jbrodie09@gmail.com,1,0.77,isabella.e.sosa@gmail.com,1,0.32,bspies38@hotmail.com,1,1.28,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: Tommy carried his _______ to the picnic table. The _______ backpack was full of books and snacks. He enjoyed sitting outside in the sunshine.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""dinner"",
+            ""B"": ""lunch"",
+            ""C"": ""smile""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (lunch) is correct because it fits the context of a picnic table and makes sense with the overall scene. Choice A (dinner) is incorrect because picnics are typically associated with lunch. Choice C (smile) is incorrect because you cannot carry a smile to a table.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""happy"",
+            ""B"": ""bright"",
+            ""C"": ""heavy""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (heavy) is correct because it logically describes a backpack full of books and snacks. Choice A (happy) is incorrect because a backpack cannot be happy. Choice B (bright) is incorrect because while a backpack can be bright in color, this doesn't relate to being full of items.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.7
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,27.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.3,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,4.2,4.5,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,230e4e7f-649c-48fa-8776-f0df2dc477fa,CustomMetadataString,,jbrodie09@gmail.com,1,0.8,isabella.e.sosa@gmail.com,1,0.38,bspies38@hotmail.com,1,0.58,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The basketball _______ practiced every day after school. The coach needed to _______ the new plays to everyone. They were getting ready for the big game on Friday.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fills in the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""group"",
+            ""B"": ""team"",
+            ""C"": ""book""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B 'team' is correct because it is a noun that logically describes a group of basketball players. Choice A 'group' is incorrect because while it's also a noun, it's too general for this context. Choice C 'book' is incorrect because although it's a noun, it doesn't make sense in the context of basketball players practicing.""
+        },
+        ""question_2"": ""Which word best fills in the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""explain"",
+            ""B"": ""jump"",
+            ""C"": ""smile""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A 'explain' is correct because the coach needs to teach or clarify the new plays to the players. Choice B 'jump' is incorrect because while it's also a verb, it doesn't make sense in the context of teaching new plays. Choice C 'smile' is incorrect because while it's a verb, it doesn't fit the context of teaching plays to players.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.6
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,31.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.4,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,5.2,4.0,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,03a12366-8792-48f3-9ceb-b92f78c74f4b,CustomMetadataString,,jbrodie09@gmail.com,1,0.5,isabella.e.sosa@gmail.com,1,0.27,bspies38@hotmail.com,1,1.4,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The little duck _______ to the pond for lunch. A large fish swam near the surface. The mother duck _______ her babies across the water.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fills in the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""jumped"",
+            ""B"": ""approached"",
+            ""C"": ""smiled""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (approached) is correct because it shows movement toward something, which makes sense for a duck going to a pond. Choice A (jumped) is incorrect because while it's a verb showing movement, it doesn't fit the context of going to a pond. Choice C (smiled) is incorrect because ducks can't smile and it doesn't show movement.""
+        },
+        ""question_2"": ""Which word best fills in the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""sang"",
+            ""B"": ""slept"",
+            ""C"": ""head""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (head) is correct because it means to lead or guide, which makes sense for a mother duck leading her babies. Choice A (sang) is incorrect because while it's a verb, it doesn't make sense in the context of guiding ducklings. Choice B (slept) is incorrect because sleeping doesn't match the action of moving across water.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.2
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,28.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.3,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,2.2,3.4,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.0,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,bec997b9-4220-464f-b54a-2bad922b51b8,CustomMetadataString,,jbrodie09@gmail.com,1,0.97,isabella.e.sosa@gmail.com,1,2.93,bspies38@hotmail.com,1,5.73,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The big elephant walked in the zoo. The _______ of the elephant left deep prints in the mud. The trainer put the _______ down for the elephant to eat.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the second sentence?"",
+        ""answer_choices_1"": {
+            ""A"": ""hand"",
+            ""B"": ""finger"",
+            ""C"": ""foot""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (foot) is correct because elephants have feet that would leave prints in mud. Choice A (hand) is incorrect because elephants don't have hands. Choice B (finger) is incorrect because elephants don't have fingers.""
+        },
+        ""question_2"": ""Which word best completes the third sentence?"",
+        ""answer_choices_2"": {
+            ""A"": ""word"",
+            ""B"": ""song"",
+            ""C"": ""book""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (word) is correct because in context, the trainer would give food to the elephant. Choice B (song) is incorrect because you cannot physically put down a song. Choice C (book) is incorrect because elephants don't eat books.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.6
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,32.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.3,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.1,3.4,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,bd82ec21-230d-4883-b515-36d891eb1c8d,CustomMetadataString,,jbrodie09@gmail.com,1,2.0,isabella.e.sosa@gmail.com,1,1.43,bspies38@hotmail.com,1,2.35,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: My brother likes to solve math problems. His _______ answers always follow the rules. He is very _______ in showing his work step by step.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fits the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""happy"",
+            ""B"": ""logical"",
+            ""C"": ""purple""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (logical) is correct because it describes answers that follow rules and make sense. Choice A (happy) is incorrect because emotions don't describe how answers follow rules. Choice C (purple) is incorrect because a color doesn't describe how answers follow rules.""
+        },
+        ""question_2"": ""Which word best fits the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""hungry"",
+            ""B"": ""noisy"",
+            ""C"": ""consistent""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (consistent) is correct because it describes doing something the same way each time. Choice A (hungry) is incorrect because a physical feeling doesn't describe how work is shown. Choice B (noisy) is incorrect because sound level doesn't relate to showing work systematically.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.7
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,28.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.2,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.2,3.4,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,86b60740-31dd-48da-8ef1-a4622cc4eb62,CustomMetadataString,,jbrodie09@gmail.com,1,0.6,isabella.e.sosa@gmail.com,1,0.53,bspies38@hotmail.com,1,0.58,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: My sister loves to watch birds at the park. The _______ visits from cardinals make her happy. She wants to _______ that they will return next spring.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fills in the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""loud"",
+            ""B"": ""frequent"",
+            ""C"": ""green""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (frequent) is correct because it describes how often the cardinals visit, which makes sense in the context of watching birds regularly. Choice A (loud) doesn't make logical sense with 'visits.' Choice C (green) isn't appropriate to describe visits.""
+        },
+        ""question_2"": ""Which word best fills in the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""confirm"",
+            ""B"": ""jump"",
+            ""C"": ""sing""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (confirm) is correct because it means to make sure of something, which fits with wanting to know if the birds will return. Choice B (jump) isn't logical in this context. Choice C (sing) doesn't make sense with wanting to know about future events.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.1
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,30.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.8,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,2.3,3.1,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.0,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,cd508d44-4a92-4844-b3ab-6c24e3db4c8a,CustomMetadataString,,jbrodie09@gmail.com,1,0.62,isabella.e.sosa@gmail.com,1,0.87,bspies38@hotmail.com,1,0.9,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: Water was _______ in the desert during the hot summer. The explorer wrote a _______ in his journal about the dry conditions. He hoped someone would find his notes one day.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fills in the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""quick"",
+            ""B"": ""scarce"",
+            ""C"": ""loud""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (scarce) is correct because it means 'not easy to find' or 'rare,' which makes sense in describing limited water in a desert. Choice A (quick) is incorrect because speed doesn't relate to the amount of water. Choice C (loud) is incorrect because sound doesn't describe the availability of water.""
+        },
+        ""question_2"": ""Which word best fills in the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""message"",
+            ""B"": ""pencil"",
+            ""C"": ""smile""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (message) is correct because it's something that can be written in a journal to communicate information. Choice B (pencil) is incorrect because it's a writing tool, not what is written. Choice C (smile) is incorrect because you can't write a smile in a journal.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 5.0
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,34.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.7,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,4.7,4.8,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.3,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,9cea0eb0-2848-49c6-a645-045f63f6abcd,CustomMetadataString,,jbrodie09@gmail.com,1,0.7,isabella.e.sosa@gmail.com,1,1.63,bspies38@hotmail.com,1,0.55,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: John wanted to _______ the two different types of rocks he found. The gray rock was rough and bumpy. It was hard to _______ between the rocks when they were both covered in dirt.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""laugh"",
+            ""B"": ""compare"",
+            ""C"": ""smile""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (compare) is correct because John wants to examine the similarities and differences between two rocks. Choice A (laugh) is incorrect because you can't laugh rocks. Choice C (smile) is incorrect because you can't smile rocks.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""walk"",
+            ""B"": ""sing"",
+            ""C"": ""distinguish""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (distinguish) is correct because it means to recognize the differences between things, which makes sense when trying to tell apart dirty rocks. Choice A (walk) is incorrect because you can't walk between rocks in this context. Choice B (sing) is incorrect because singing has nothing to do with telling rocks apart.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.1
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,37.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.5,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,2.9,4.2,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,87dba661-a43f-4298-91c4-7757e12a245a,CustomMetadataString,,jbrodie09@gmail.com,1,0.45,isabella.e.sosa@gmail.com,1,0.4,bspies38@hotmail.com,1,0.52,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: Tom watched the _______ take off into the clouds. His father was the pilot, and all the kids would _______ his flying skills. The air show was always exciting to watch.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""train"",
+            ""B"": ""airplane"",
+            ""C"": ""running""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (airplane) is correct because the context mentions a pilot and flying. Choice A (train) is incorrect because trains don't take off into clouds. Choice C (running) is incorrect because it's a verb and doesn't make sense in context.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""praise"",
+            ""B"": ""jump"",
+            ""C"": ""scold""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (praise) is correct because it makes sense to positively recognize good flying skills. Choice B (jump) is incorrect because it doesn't make sense with flying skills. Choice C (scold) is incorrect because it suggests negative feedback, which doesn't fit the positive context.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.1
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,35.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.7,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,2.8,4.2,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,065aa901-f8d8-438a-8eb9-911fd749f125,CustomMetadataString,,jbrodie09@gmail.com,1,0.78,isabella.e.sosa@gmail.com,1,0.68,bspies38@hotmail.com,1,0.7,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: Tommy rode his bike to school. He always wore his _______ to stay safe. His mother was _______ that he followed the safety rules.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""shirt"",
+            ""B"": ""helmet"",
+            ""C"": ""pencil""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (helmet) is correct because it's a safety item worn while riding a bike. Choice A (shirt) is incorrect because it's not a safety item for biking. Choice C (pencil) is incorrect because it's not something you wear for protection.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""quick"",
+            ""B"": ""tall"",
+            ""C"": ""glad""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (glad) is correct because it shows how the mother felt about Tommy following safety rules. Choice A (quick) is incorrect because it doesn't describe an emotional reaction. Choice B (tall) is incorrect because it describes physical appearance, not feelings.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.9
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,27.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.7,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.2,3.8,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,20346c1b-4c01-4011-92fc-5c87119e08a7,CustomMetadataString,,jbrodie09@gmail.com,1,0.65,isabella.e.sosa@gmail.com,1,0.43,bspies38@hotmail.com,1,0.47,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The _______ swam playfully in the cold ocean water. Sarah watched it dive for fish near the shore. She _______ saw it catch three fish in one dive.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""dolphin"",
+            ""B"": ""seal"",
+            ""C"": ""fish""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (seal) is correct because seals are marine mammals known for playfully swimming and diving for fish. Choice A (dolphin) is incorrect because while dolphins also swim in the ocean, the context of diving near the shore for fish is more typical of seal behavior. Choice C (fish) is incorrect because fish don't typically swim playfully and don't dive for other fish.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""quickly"",
+            ""B"": ""never"",
+            ""C"": ""possibly""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (possibly) is correct because it indicates uncertainty about exactly what was observed, which makes sense in the context. Choice A (quickly) is incorrect because the sentence isn't about the speed of the observation. Choice B (never) is incorrect because it contradicts the fact that she did see the seal catch fish.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.7
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,31.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.8,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,2.3,4.0,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,df743549-0b07-4877-8dfe-5bcfe9860a26,CustomMetadataString,,jbrodie09@gmail.com,1,1.2,isabella.e.sosa@gmail.com,1,2.13,bspies38@hotmail.com,1,4.37,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The _______ made fresh bread every morning. Everyone loved the sweet smell _______ Tommy, who preferred cookies. The bakery was always busy with happy customers.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fills in the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""teacher"",
+            ""B"": ""baker"",
+            ""C"": ""driver""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (baker) is correct because the context mentions a bakery and making bread, which is what a baker does. Choice A (teacher) is incorrect because teachers don't typically make bread as their job. Choice C (driver) is incorrect because drivers don't make bread.""
+        },
+        ""question_2"": ""Which word best fills in the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""except"",
+            ""B"": ""during"",
+            ""C"": ""while""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (except) is correct because it shows that Tommy is the only one who didn't love the smell, making him an exception. Choice B (during) is incorrect because it doesn't make sense in showing contrast. Choice C (while) is incorrect because it doesn't properly show the exception being made.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 5.7
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,29.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.6,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,7.4,4.8,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.4,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,f06302ab-8e29-4fb5-9252-4256b7eb9b35,CustomMetadataString,,jbrodie09@gmail.com,1,0.68,isabella.e.sosa@gmail.com,1,0.63,bspies38@hotmail.com,1,0.85,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The young puppy wanted to learn new tricks. _______ he could learn to sit and stay in one week. With hard work, the puppy would _______ all his training goals.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the second sentence?"",
+        ""answer_choices_1"": {
+            ""A"": ""maybe"",
+            ""B"": ""perhaps"",
+            ""C"": ""quickly""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (perhaps) is correct because it shows uncertainty about the future event. Choice A (maybe) is incorrect because while similar in meaning, 'perhaps' is more appropriate in this context. Choice C (quickly) is incorrect because an adverb of manner doesn't fit the meaning of possibility needed in the sentence.""
+        },
+        ""question_2"": ""Which word best completes the third sentence?"",
+        ""answer_choices_2"": {
+            ""A"": ""accomplish"",
+            ""B"": ""jump"",
+            ""C"": ""happy""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (accomplish) is correct because it means to successfully complete something, which fits with achieving training goals. Choice B (jump) is incorrect because while it's a verb, it doesn't make sense with 'training goals.' Choice C (happy) is incorrect because an adjective cannot be used where a verb is needed.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 2.9
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,34.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,5.2,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,1.6,3.1,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.0,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,09dfea55-ba5b-4cc8-8910-949eca55de54,CustomMetadataString,,jbrodie09@gmail.com,1,1.02,isabella.e.sosa@gmail.com,1,0.28,bspies38@hotmail.com,1,2.97,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: Today in art class, we learned about _______ paintings that don't look like real things. The teacher showed us famous artwork. We decided to _______ with different paint colors to create our own artwork.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fits the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""magical"",
+            ""B"": ""abstract"",
+            ""C"": ""yellow""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (abstract) is correct because it properly describes paintings that don't represent real objects. Choice A (magical) is incorrect because while it's an adjective, it doesn't match the context of non-representational art. Choice C (yellow) is incorrect because while it's an adjective, it only describes a color, not a style of art.""
+        },
+        ""question_2"": ""Which word best fits the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""sing"",
+            ""B"": ""walk"",
+            ""C"": ""experiment""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (experiment) is correct because it matches the context of trying different paint colors creatively. Choice A (sing) is incorrect because singing isn't related to creating artwork with paint. Choice B (walk) is incorrect because walking isn't an action that relates to creating art with paint.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 5.1
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,39.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.0,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,5.4,4.7,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.3,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,2bd1d648-93c4-44d1-b1ea-5f1283319d1e,CustomMetadataString,,jbrodie09@gmail.com,1,0.93,isabella.e.sosa@gmail.com,1,0.52,bspies38@hotmail.com,1,0.47,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: My _______ was filled with a sandwich and chips. The school cafeteria was very busy at noon. The new _______ said students must eat lunch in their classrooms.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fits the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""backpack"",
+            ""B"": ""lunchbox"",
+            ""C"": ""pencil""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (lunchbox) is correct because it's a container that would hold food items like a sandwich and chips. Choice A (backpack) is incorrect because while it could hold lunch items, it's primarily for school supplies. Choice C (pencil) is incorrect because it's not a container and cannot hold food.""
+        },
+        ""question_2"": ""Which word best fits the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""book"",
+            ""B"": ""desk"",
+            ""C"": ""law""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C (law) is correct because it refers to a rule or regulation that must be followed. Choice A (book) is incorrect because a book cannot make rules. Choice B (desk) is incorrect because it's an object and cannot establish rules.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.5
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,31.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.4,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.5,4.6,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,056226a3-2113-4fd3-bb86-1eb382852731,CustomMetadataString,,jbrodie09@gmail.com,1,1.18,isabella.e.sosa@gmail.com,1,0.55,bspies38@hotmail.com,1,2.67,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The school field trip to the museum was very _______. The _______ of learning about dinosaurs made us excited. We spent hours looking at the giant fossils.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""scary"",
+            ""B"": ""informative"",
+            ""C"": ""sleepy""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (informative) is correct because the sentence describes a learning experience at a museum. Choice A (scary) is incorrect because nothing in the passage suggests fear. Choice C (sleepy) is incorrect because it doesn't match the excited tone of the passage.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""significance"",
+            ""B"": ""happiness"",
+            ""C"": ""bridge""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (significance) is correct because it shows the importance of learning about dinosaurs. Choice B (happiness) is incorrect because while related to emotions, it doesn't fit the context of importance. Choice C (bridge) is incorrect because it's an unrelated noun that doesn't make sense in the context.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.3
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,30.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.0,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,4.0,4.0,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,fa66f1a3-246b-4447-ad1a-42df0cb6845f,CustomMetadataString,,jbrodie09@gmail.com,1,1.52,isabella.e.sosa@gmail.com,1,0.63,bspies38@hotmail.com,1,2.0,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: My brother likes to _______ toy cars out of paper. I _______ that his creations are amazing. They always look just like real cars.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""break"",
+            ""B"": ""design"",
+            ""C"": ""laugh""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (design) is correct because it makes sense in the context of creating toy cars. Choice A (break) is incorrect because it's destructive rather than creative. Choice C (laugh) is incorrect because you can't 'laugh' toy cars.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""agree"",
+            ""B"": ""jump"",
+            ""C"": ""write""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (agree) is correct because it makes sense to agree with an opinion about the creations. Choice B (jump) is incorrect because you can't physically jump an opinion. Choice C (write) is incorrect because you don't write that something is amazing in this context.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.4
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,27.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.3,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,2.2,3.4,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,814b1e80-541b-42dd-8aa7-d24e68c78c74,CustomMetadataString,,jbrodie09@gmail.com,1,1.32,isabella.e.sosa@gmail.com,1,0.68,bspies38@hotmail.com,1,1.58,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The beach was warm and sunny. A large _______ crashed onto the shore. The kids _______ across the sand to catch their beach ball.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""rock"",
+            ""B"": ""wave"",
+            ""C"": ""cloud""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (wave) is correct because waves naturally crash onto shores at beaches. Choice A (rock) is incorrect because rocks don't typically crash onto shores. Choice C (cloud) is incorrect because clouds don't crash onto shores.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""speed"",
+            ""B"": ""crawl"",
+            ""C"": ""beach""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (speed) is correct because it makes sense that kids would run quickly across sand to catch a ball. Choice B (crawl) is incorrect because it would be too slow to catch a ball. Choice C (beach) is incorrect because it's a noun and the sentence requires a verb.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 3.9
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,27.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,6.0,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,1.2,4.8,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.1,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,7197b802-b3b9-4cee-a55a-4b2f5e7db6f5,CustomMetadataString,,jbrodie09@gmail.com,1,1.12,isabella.e.sosa@gmail.com,1,0.48,bspies38@hotmail.com,1,0.98,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The new science experiment was exciting. The smoke began to _______ the glass jar. The teacher watched our _______ as the liquid changed color.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""escape"",
+            ""B"": ""surround"",
+            ""C"": ""laugh""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B 'surround' is correct because the smoke is encircling the jar. Choice A 'escape' is incorrect because the smoke isn't leaving the jar. Choice C 'laugh' is incorrect because it's not an action smoke can perform.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""friend"",
+            ""B"": ""smile"",
+            ""C"": ""reaction""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""C"",
+            ""explanation"": ""Choice C 'reaction' is correct because it refers to how the students responded to the experiment. Choice A 'friend' is incorrect because it doesn't fit the context of observing an experiment. Choice B 'smile' is incorrect because the teacher is watching their overall response, not just their facial expressions.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.4
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,27.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.3,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,4.7,3.8,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,3935bdc4-b1af-45c9-81ad-735dc75d6c15,CustomMetadataString,,jbrodie09@gmail.com,1,1.02,isabella.e.sosa@gmail.com,1,0.48,bspies38@hotmail.com,1,0.73,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The snow created a beautiful winter scene. The _______ of ice on the lake was stunning. The _______ shelter kept us warm while ice fishing.
+
+Question: [
+    {
+        ""question_1"": ""Which word best completes the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""plate"",
+            ""B"": ""form"",
+            ""C"": ""bunch""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (form) is correct because it describes the shape or appearance of ice on the lake. Choice A (plate) is incorrect because while it's also a noun, it doesn't fit the context of describing ice formation. Choice C (bunch) is incorrect because it suggests a group or collection, which doesn't make sense for describing ice on a lake.""
+        },
+        ""question_2"": ""Which word best completes the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""temporary"",
+            ""B"": ""purple"",
+            ""C"": ""loud""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (temporary) is correct because it describes a shelter that is not permanent, which makes sense for ice fishing. Choice B (purple) is incorrect because color is not relevant to the shelter's function. Choice C (loud) is incorrect because sound is not a logical descriptor for a shelter.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.3
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,3.0,clvlgi6jk0b1i07y47ulr2g5r,28.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,7.8,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.6,4.1,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,fac0af00-2dea-4f16-ae87-a62fbfdc4fd7,CustomMetadataString,,jbrodie09@gmail.com,1,0.7,isabella.e.sosa@gmail.com,1,0.4,bspies38@hotmail.com,1,2.02,,,,,,,,,,,,,,,,,,,,,
+4th Grade Key to Finding the Context,"Grade level: 4 Key to Finding the Context
+
+Paragraph: The young athlete wanted to _______ her training time at the gym. 'I can run faster than ever!' she _______. Her dedication was truly inspiring.
+
+Question: [
+    {
+        ""question_1"": ""Which word best fits the first blank?"",
+        ""answer_choices_1"": {
+            ""A"": ""painted"",
+            ""B"": ""maximize"",
+            ""C"": ""purple""
+        },
+        ""teacher_solution_1"": {
+            ""correct_answer"": ""B"",
+            ""explanation"": ""Choice B (maximize) is correct because it means to make as large as possible, which makes sense with training time. Choice A (painted) is incorrect because you cannot paint time. Choice C (purple) is incorrect because it's an adjective and doesn't make sense in the context.""
+        },
+        ""question_2"": ""Which word best fits the second blank?"",
+        ""answer_choices_2"": {
+            ""A"": ""exclaimed"",
+            ""B"": ""laughed"",
+            ""C"": ""quiet""
+        },
+        ""teacher_solution_2"": {
+            ""correct_answer"": ""A"",
+            ""explanation"": ""Choice A (exclaimed) is correct because it shows she spoke with excitement about her achievement. Choice B (laughed) is incorrect because while it's also a verb, it doesn't fit the context of making a statement. Choice C (quiet) is incorrect because it's an adjective and cannot be used as a verb in this sentence.""
+        }
+    }
+]
+
+
+Weighted Average Readability: 4.7
+",2024-12-09T21:12:40.743+00:00,cm4hj3txn0002071975fe43qk,clvlghyji049q07yd9dqmhj4d,CustomMetadataNumber,4.0,clvlgi6jk0b1i07y47ulr2g5r,31.0,CustomMetadataNumber,CustomMetadataNumber,clvlgvm0y06im07xtdbt9dupc,9.0,clvlgvtmy06ip07xtg25e8v9n,CustomMetadataNumber,3.8,4.5,CustomMetadataNumber,clvlgvci303w407yza086bpam,CustomMetadataNumber,4.2,clvlgilt4068d07uudrh25kps,clvlh5qtg04e207z396qnfxff,5f93d930-e95a-4db5-8dd9-de5247bc8dd8,CustomMetadataString,,jbrodie09@gmail.com,1,0.8,isabella.e.sosa@gmail.com,1,0.33,bspies38@hotmail.com,1,0.62,,,,,,,,,,,,,,,,,,,,,
