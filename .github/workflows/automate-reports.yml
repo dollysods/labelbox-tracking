@@ -39,7 +39,6 @@ jobs:
       - name: Debug Environment Variables
         run: printenv | grep LABELBOX
 
-
       # Step 5: Run Tracking Export Script
       - name: Run tracking_export.py (Export NDJSON/CSV)
         run: python tracking_export.py
@@ -54,9 +53,13 @@ jobs:
 
       # Step 8: Commit and Push All Outputs
       - name: Commit and Push Outputs
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/tailored-ai/labelbox-tracking.git
           git add exports/*.ndjson exports/*.csv tracking_data/*.txt tracking_data/*.csv
-          git commit -m "Automated Export and Report Generation: $(date)"
-          git push
+          git commit -m "Automated Export and Report Generation: $(date)" || echo "No changes to commit"
+          git push origin main
+
