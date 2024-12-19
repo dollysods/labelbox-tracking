@@ -1,0 +1,5 @@
+title: Labelbox Tracking
+description: A site to download daily tracking data.
+baseurl: ""
+url: "https://dollysods.github.io/labelbox-tracking"
+theme: minima
