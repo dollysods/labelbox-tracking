@@ -2,16 +2,18 @@ name: Automate Reports Workflow
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Runs every day at 6 AM UTC
+    - cron: '0 6 * * *'
   push:
     branches: [main]
 
 jobs:
   generate-and-process-reports:
     runs-on: ubuntu-latest
+    env:
+      LABELBOX_API_KEY: ${{ secrets.LABELBOX_API_KEY }}
+      PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
@@ -21,46 +23,34 @@ jobs:
         with:
           python-version: '3.x'
 
-      # Step 3: Install python-dotenv Explicitly
-      - name: Install python-dotenv
+      - name: Install Dependencies
         run: |
-          pip install python-dotenv --force-reinstall
-          pip list | grep python-dotenv  # Verify installation
-          python -c "import dotenv; print('dotenv loaded successfully')"
+          pip install python-dotenv pandas requests msal labelbox
 
-      # Step 4: Install Remaining Dependencies
-      - name: Install Other Dependencies
+      - name: Debug Secrets Presence
         run: |
-          pip install pandas requests msal labelbox
-
-      #Add Env variables
-      - name: Set Environment Variables
-        run: echo "LABELBOX_API_KEY=${{ secrets.LABELBOX_API_KEY }}" >> $GITHUB_ENV
-      - name: Debug Environment Variables
-        run: printenv | grep LABELBOX
-      - name: Debug PAT Presence
-        run: |
-          if [ -z "$PERSONAL_ACCESS_TOKEN" ]; then
-            echo "Personal Access Token is missing!"
+          if [ -z "$LABELBOX_API_KEY" ]; then
+            echo "LABELBOX_API_KEY is missing!"
             exit 1
           else
-            echo "Personal Access Token is set."
+            echo "LABELBOX_API_KEY is set."
+          fi
+          if [ -z "$PERSONAL_ACCESS_TOKEN" ]; then
+            echo "PERSONAL_ACCESS_TOKEN is missing!"
+            exit 1
+          else
+            echo "PERSONAL_ACCESS_TOKEN is set."
           fi
 
-
-      # Step 5: Run Tracking Export Script
-      - name: Run tracking_export.py (Export NDJSON/CSV)
+      - name: Run tracking_export.py
         run: python tracking_export.py
 
-      # Step 6: Run labelbox-tracking-txt.py
-      - name: Process Exports to TXT Report
+      - name: Run labelbox-tracking-txt.py
         run: python labelbox-tracking-txt.py
 
-      # Step 7: Run labelbox-tracking-csv.py
-      - name: Process Exports to CSV Report
+      - name: Run labelbox-tracking-csv.py
         run: python labelbox-tracking-csv.py
 
-      # Step 8: Commit and Push All Outputs
       - name: Commit and Push Outputs
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
@@ -68,7 +58,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/tailored-ai/labelbox-tracking.git
+          git remote -v  # Debugging: Check remote URL
           git add exports/*.ndjson exports/*.csv tracking_data/*.txt tracking_data/*.csv
           git commit -m "Automated Export and Report Generation: $(date)" || echo "No changes to commit"
           git push origin main
-
