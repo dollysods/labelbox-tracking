@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <!-- Site Header -->
+  <header>
+    <h1><a href="{{ '/' | absolute_url }}">{{ site.title }}</a></h1>
+    <p>{{ site.description }}</p>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- Site Footer -->
+  <footer>
+    <p>Last updated: {{ site.time | date: "%B %d, %Y at %I:%M %p" }}</p>
+  </footer>
+</body>
+</html>

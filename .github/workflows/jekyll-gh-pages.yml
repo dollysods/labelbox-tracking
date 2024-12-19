@@ -41,7 +41,7 @@ jobs:
           echo "Download the latest tracking data below:" >> index.md
           echo "" >> index.md
           echo "- [CSV Report](/labelbox-tracking/assets/tracking_data/${LATEST_CSV})" >> index.md
-          echo "- [TXT Report](labelbox-tracking/assets/tracking_data/${LATEST_TXT})" >> index.md
+          echo "- [TXT Report](/labelbox-tracking/assets/tracking_data/${LATEST_TXT})" >> index.md
 
       - name: Debug Updated Index
         run: |
