@@ -48,6 +48,11 @@ jobs:
           echo "- [CSV Report](assets/tracking_data/${LATEST_CSV})" >> index.md
           echo "- [TXT Report](assets/tracking_data/${LATEST_TXT})" >> index.md
 
+      - name: Set Git Identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Commit Updated Index
         run: |
           git add index.md
