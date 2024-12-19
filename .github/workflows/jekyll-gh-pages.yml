@@ -21,19 +21,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Debug Tracking Data Directory
-        run: |
-          echo "Checking tracking_data directory:"
-          ls -la tracking_data || echo "tracking_data directory does not exist"
-
       - name: Copy Tracking Data
         run: |
           mkdir -p assets/tracking_data
           cp tracking_data/*.csv assets/tracking_data/ || echo "No CSV files found"
           cp tracking_data/*.txt assets/tracking_data/ || echo "No TXT files found"
-        working-directory: .
 
-      - name: Debug Assets Directory
+      - name: Debug Tracking Data Directory
         run: |
           echo "Contents of assets/tracking_data:"
           ls -la assets/tracking_data || echo "assets/tracking_data directory not created"
@@ -44,10 +38,10 @@ jobs:
           source: ./
           destination: ./_site
 
-      - name: Debug Build Output
+      - name: Debug Jekyll Build Output
         run: |
           echo "Contents of the build output directory (_site):"
-          ls -la _site/assets/tracking_data || echo "assets/tracking_data directory does not exist in the build output"
+          ls -la _site/assets/tracking_data || echo "assets/tracking_data not found in _site"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
