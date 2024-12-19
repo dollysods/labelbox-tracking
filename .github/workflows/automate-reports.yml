@@ -38,6 +38,15 @@ jobs:
         run: echo "LABELBOX_API_KEY=${{ secrets.LABELBOX_API_KEY }}" >> $GITHUB_ENV
       - name: Debug Environment Variables
         run: printenv | grep LABELBOX
+      - name: Debug PAT Presence
+        run: |
+          if [ -z "$PERSONAL_ACCESS_TOKEN" ]; then
+            echo "Personal Access Token is missing!"
+            exit 1
+          else
+            echo "Personal Access Token is set."
+          fi
+
 
       # Step 5: Run Tracking Export Script
       - name: Run tracking_export.py (Export NDJSON/CSV)
