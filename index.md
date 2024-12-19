@@ -7,5 +7,5 @@ title: Daily Tracking Reports
 
 Download the latest tracking data below:
 
-- [CSV Report](/assets/tracking_data/{{LATEST_CSV}})
-- [TXT Report](/assets/tracking_data/{{LATEST_TXT}})
+- [CSV Report](/labelbox-tracking/assets/tracking_data/{{LATEST_CSV}})
+- [TXT Report](/labelbox-tracking/assets/tracking_data/{{LATEST_TXT}})
