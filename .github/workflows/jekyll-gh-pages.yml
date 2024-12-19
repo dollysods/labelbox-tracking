@@ -18,20 +18,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Step 1: Checkout Repository
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Step 2: Copy Tracking Data to Assets Directory
       - name: Copy Tracking Data
         run: |
           mkdir -p assets/tracking_data
           cp tracking_data/*.csv assets/tracking_data/ || echo "No CSV files found"
           cp tracking_data/*.txt assets/tracking_data/ || echo "No TXT files found"
 
+      # Step 3: Debug Tracking Data Directory
       - name: Debug Tracking Data Directory
         run: |
           echo "Contents of assets/tracking_data:"
           ls -la assets/tracking_data || echo "assets/tracking_data directory not created"
 
+      # Step 4: Update index.md with Latest File Links
       - name: Update Index with Latest Files
         run: |
           LATEST_CSV=$(ls -t tracking_data/*.csv | head -n 1 | xargs -n 1 basename)
@@ -48,28 +52,38 @@ jobs:
           echo "- [CSV Report](assets/tracking_data/${LATEST_CSV})" >> index.md
           echo "- [TXT Report](assets/tracking_data/${LATEST_TXT})" >> index.md
 
-      - name: Set Git Identity
+      # Step 5: Debug Updated Index
+      - name: Debug Updated Index
+        run: |
+          echo "Contents of index.md:"
+          cat index.md
+
+      # Step 6: Commit and Push Updated Index
+      - name: Commit Updated Index
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Commit Updated Index
-        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/dollysods/labelbox-tracking.git
           git add index.md
-          git commit -m "Update index.md with latest file links"
+          git commit -m "Update index.md with latest file links" || echo "No changes to commit"
           git push origin main
 
+      # Step 7: Build the Site with Jekyll
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./ 
           destination: ./_site
 
+      # Step 8: Debug Build Output
       - name: Debug Jekyll Build Output
         run: |
           echo "Contents of the build output directory (_site):"
           ls -la _site/assets/tracking_data || echo "assets/tracking_data not found in _site"
 
+      # Step 9: Upload Artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
@@ -80,6 +94,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      # Step 10: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
