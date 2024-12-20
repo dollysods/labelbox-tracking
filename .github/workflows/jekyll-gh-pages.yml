@@ -61,8 +61,8 @@ jobs:
           echo "" >> index.md
           echo "Download the latest tracking data below:" >> index.md
           echo "" >> index.md
-          echo "- [CSV Report](/assets/tracking_data/${LATEST_CSV})" >> index.md
-          echo "- [TXT Report](/assets/tracking_data/${LATEST_TXT})" >> index.md
+          echo "- [CSV Report](/labelbox-tracking/assets/tracking_data/${LATEST_CSV})" >> index.md
+          echo "- [TXT Report](/labelbox-tracking/assets/tracking_data/${LATEST_TXT})" >> index.md
 
       # Step 4: Debug Updated Index
       - name: Debug Updated Index
