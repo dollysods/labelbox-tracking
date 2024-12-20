@@ -18,9 +18,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Step 1: Checkout Repository
       - name: Checkout Repository
         uses: actions/checkout@v4
         
+      # Step 2: Copy Tracking Data to Assets Directory
       - name: Copy Tracking Data
         run: |
           # Clear out the old files
@@ -33,11 +35,7 @@ jobs:
           echo "Contents of assets/tracking_data after copy:"
           ls -la assets/tracking_data || echo "assets/tracking_data directory is empty"
 
-      - name: Debug Assets Directory
-        run: |
-          echo "Contents of assets/tracking_data:"
-          ls -la assets/tracking_data
-
+      # Step 3: Update index.md with the Latest Files
       - name: Update Index with Latest Files
         run: |
           LATEST_CSV=$(ls -t assets/tracking_data/*.csv 2>/dev/null | head -n 1 | xargs -n 1 basename || echo "No CSV file found")
@@ -52,31 +50,29 @@ jobs:
           echo "" >> index.md
           echo "Download the latest tracking data below:" >> index.md
           echo "" >> index.md
-          echo "- [CSV Report](/labelbox-tracking/assets/tracking_data/${LATEST_CSV})" >> index.md
-          echo "- [TXT Report](/labelbox-tracking/assets/tracking_data/${LATEST_TXT})" >> index.md
+          echo "- [CSV Report](/assets/tracking_data/${LATEST_CSV})" >> index.md
+          echo "- [TXT Report](/assets/tracking_data/${LATEST_TXT})" >> index.md
 
-      - name: Debug Jekyll Build Output
-        run: |
-          echo "Contents of the build output directory (_site):"
-          ls -la _site/assets/tracking_data || echo "assets/tracking_data not found in _site"
-
-
+      # Step 4: Debug Updated Index
       - name: Debug Updated Index
         run: |
           echo "Contents of index.md:"
           cat index.md
 
+      # Step 5: Build with Jekyll
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
 
+      # Step 6: Debug Jekyll Build Output
       - name: Debug Jekyll Build Output
         run: |
           echo "Contents of the build output directory (_site):"
           ls -la _site/assets/tracking_data || echo "assets/tracking_data not found in _site"
 
+      # Step 7: Upload Artifact for Deployment
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
 
@@ -87,6 +83,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      # Step 8: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
