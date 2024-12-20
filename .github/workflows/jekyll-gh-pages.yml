@@ -34,8 +34,11 @@ jobs:
 
       - name: Update Index with Latest Files
         run: |
-          LATEST_CSV=$(ls -t tracking_data/*.csv | head -n 1 | xargs -n 1 basename)
-          LATEST_TXT=$(ls -t tracking_data/*.txt | head -n 1 | xargs -n 1 basename)
+          # Identify the latest files in the assets directory
+          LATEST_CSV=$(ls -t assets/tracking_data/*.csv | head -n 1 | xargs -n 1 basename)
+          LATEST_TXT=$(ls -t assets/tracking_data/*.txt | head -n 1 | xargs -n 1 basename)
+      
+          # Update index.md with the latest file links
           echo "---" > index.md
           echo "layout: default" >> index.md
           echo "title: Tracking Data" >> index.md
@@ -47,6 +50,7 @@ jobs:
           echo "" >> index.md
           echo "- [CSV Report](/labelbox-tracking/assets/tracking_data/${LATEST_CSV})" >> index.md
           echo "- [TXT Report](/labelbox-tracking/assets/tracking_data/${LATEST_TXT})" >> index.md
+
 
 
       - name: Debug Updated Index
