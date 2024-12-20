@@ -32,8 +32,8 @@ jobs:
           echo "Contents of tracking_data before processing:"
           ls -la tracking_data || echo "tracking_data directory is empty"
       
-          # Identify the two newest files based on their modification timestamps in the tracking_data folder
-          NEWEST_FILES=$(ls -t tracking_data/* | head -n 2)
+          # Identify the two newest files based on their filenames
+          NEWEST_FILES=$(ls tracking_data/* | grep -E "tracking_report_[0-9]{4}-[0-9]{2}-[0-9]{2}" | sort -r | head -n 2)
           echo "Newest files to copy:"
           echo "${NEWEST_FILES}"
       
@@ -44,9 +44,6 @@ jobs:
       
           echo "Contents of assets/tracking_data after processing:"
           ls -la assets/tracking_data || echo "assets/tracking_data directory is empty"
-
-
-
 
 
       # Step 3: Update index.md with the Latest Files
