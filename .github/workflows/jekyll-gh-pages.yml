@@ -32,18 +32,19 @@ jobs:
           echo "Contents of tracking_data before processing:"
           ls -la tracking_data || echo "tracking_data directory is empty"
       
-          # Identify the two newest files from the tracking_data folder
+          # Identify the two newest files based on their modification timestamps in the tracking_data folder
           NEWEST_FILES=$(ls -t tracking_data/* | head -n 2)
           echo "Newest files to copy:"
           echo "${NEWEST_FILES}"
       
-          # Copy the two newest files to assets/tracking_data
+          # Copy the newest files to the assets/tracking_data directory
           for FILE in ${NEWEST_FILES}; do
             cp "$FILE" assets/tracking_data/
           done
       
           echo "Contents of assets/tracking_data after processing:"
           ls -la assets/tracking_data || echo "assets/tracking_data directory is empty"
+
 
 
 
