@@ -24,13 +24,13 @@ jobs:
       - name: Copy Tracking Data
         run: |
           # Clear out the old files
-          rm -rf /labelbox-tracking/assets/tracking_data/*
+          rm -rf labelbox-tracking/assets/tracking_data/*
           echo "Contents of assets/tracking_data after cleanup and copy:"
-          ls -la /labelbox-tracking/assets/tracking_data || echo "assets/tracking_data directory is empty"
+          ls -la labelbox-tracking/assets/tracking_data || echo "assets/tracking_data directory is empty"
           # Recreate the directory and copy the new files
-          mkdir -p /labelbox-tracking/assets/tracking_data
-          cp /labelbox-tracking/tracking_data/*.csv /labelbox-tracking/assets/tracking_data/ || echo "No CSV files found"
-          cp /labelbox-tracking/tracking_data/*.txt /labelbox-tracking/assets/tracking_data/ || echo "No TXT files found"
+          mkdir -p labelbox-tracking/assets/tracking_data
+          cp labelbox-tracking/tracking_data/*.csv labelbox-tracking/assets/tracking_data/ || echo "No CSV files found"
+          cp labelbox-tracking/tracking_data/*.txt labelbox-tracking/assets/tracking_data/ || echo "No TXT files found"
 
       - name: Update Index with Latest Files
         run: |
