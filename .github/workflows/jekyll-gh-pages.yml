@@ -28,12 +28,24 @@ jobs:
           # Clear out the old files
           rm -rf assets/tracking_data/*
           mkdir -p assets/tracking_data
+      
           echo "Contents of tracking_data before copy:"
           ls -la tracking_data || echo "tracking_data directory is empty"
+      
+          # Copy the latest files
           cp tracking_data/*.csv assets/tracking_data/ || echo "No CSV files found"
           cp tracking_data/*.txt assets/tracking_data/ || echo "No TXT files found"
-          echo "Contents of assets/tracking_data after copy:"
-          ls -la assets/tracking_data || echo "assets/tracking_data directory is empty"
+      
+          # Retain only the latest files in assets directory
+          LATEST_CSV=$(ls -t tracking_data/*.csv | head -n 1 | xargs -n 1 basename)
+          LATEST_TXT=$(ls -t tracking_data/*.txt | head -n 1 | xargs -n 1 basename)
+      
+          echo "Removing older files from assets directory..."
+          find assets/tracking_data -type f ! -name "${LATEST_CSV}" ! -name "${LATEST_TXT}" -delete
+      
+          echo "Contents of assets/tracking_data after cleanup:"
+          ls -la assets/tracking_data
+
 
       # Step 3: Update index.md with the Latest Files
       - name: Update Index with Latest Files
