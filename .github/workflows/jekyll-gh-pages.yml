@@ -4,6 +4,8 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+  repository_dispatch:
+    types: [deploy-jekyll]
 
 permissions:
   contents: read
@@ -21,27 +23,27 @@ jobs:
       # Step 1: Checkout Repository
       - name: Checkout Repository
         uses: actions/checkout@v4
-        
+
       # Step 2: Copy Tracking Data to Assets Directory
       - name: Copy Tracking Data
         run: |
           # Clear out the old files in the assets directory
           rm -rf assets/tracking_data/*
           mkdir -p assets/tracking_data
-      
+
           echo "Contents of tracking_data before processing:"
           ls -la tracking_data || echo "tracking_data directory is empty"
-      
+
           # Identify the two newest files based on their filenames
           NEWEST_FILES=$(ls tracking_data/* | grep -E "tracking_report_[0-9]{4}-[0-9]{2}-[0-9]{2}" | sort -r | head -n 2)
           echo "Newest files to copy:"
           echo "${NEWEST_FILES}"
-      
+
           # Copy the newest files to the assets/tracking_data directory
           for FILE in ${NEWEST_FILES}; do
             cp "$FILE" assets/tracking_data/
           done
-      
+
           echo "Contents of assets/tracking_data after processing:"
           ls -la assets/tracking_data || echo "assets/tracking_data directory is empty"
 
@@ -51,7 +53,7 @@ jobs:
         run: |
           LATEST_CSV=$(ls -t assets/tracking_data/*.csv 2>/dev/null | head -n 1 | xargs -n 1 basename || echo "No CSV file found")
           LATEST_TXT=$(ls -t assets/tracking_data/*.txt 2>/dev/null | head -n 1 | xargs -n 1 basename || echo "No TXT file found")
-      
+
           echo "---" > index.md
           echo "layout: default" >> index.md
           echo "title: Tracking Data" >> index.md
