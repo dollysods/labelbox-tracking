@@ -25,31 +25,26 @@ jobs:
       # Step 2: Copy Tracking Data to Assets Directory
       - name: Copy Tracking Data
         run: |
-          # Clear out the old files
+          # Clear out the old files in the assets directory
           rm -rf assets/tracking_data/*
           mkdir -p assets/tracking_data
       
-          echo "Contents of tracking_data before copy:"
+          echo "Contents of tracking_data before processing:"
           ls -la tracking_data || echo "tracking_data directory is empty"
       
-          # Copy all files to the assets directory
-          cp tracking_data/*.csv assets/tracking_data/ || echo "No CSV files found"
-          cp tracking_data/*.txt assets/tracking_data/ || echo "No TXT files found"
+          # Identify the two newest files from the tracking_data folder
+          NEWEST_FILES=$(ls -t tracking_data/* | head -n 2)
+          echo "Newest files to copy:"
+          echo "${NEWEST_FILES}"
       
-          # Identify the latest files
-          LATEST_CSV=$(ls -t tracking_data/*.csv | head -n 1 | xargs -n 1 basename)
-          LATEST_TXT=$(ls -t tracking_data/*.txt | head -n 1 | xargs -n 1 basename)
+          # Copy the two newest files to assets/tracking_data
+          for FILE in ${NEWEST_FILES}; do
+            cp "$FILE" assets/tracking_data/
+          done
       
-          echo "Latest CSV: ${LATEST_CSV}"
-          echo "Latest TXT: ${LATEST_TXT}"
-      
-          # Remove older files, keeping only the latest CSV and TXT
-          find assets/tracking_data -type f \
-            ! -name "${LATEST_CSV}" \
-            ! -name "${LATEST_TXT}" -exec rm -f {} +
-      
-          echo "Contents of assets/tracking_data after cleanup:"
+          echo "Contents of assets/tracking_data after processing:"
           ls -la assets/tracking_data || echo "assets/tracking_data directory is empty"
+
 
 
 
