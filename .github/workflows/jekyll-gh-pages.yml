@@ -20,9 +20,12 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-
+        
       - name: Copy Tracking Data
         run: |
+          # Clear out the old files
+          rm -rf assets/tracking_data/*
+          # Recreate the directory and copy the new files
           mkdir -p assets/tracking_data
           cp tracking_data/*.csv assets/tracking_data/ || echo "No CSV files found"
           cp tracking_data/*.txt assets/tracking_data/ || echo "No TXT files found"
