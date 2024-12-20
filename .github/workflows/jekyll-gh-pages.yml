@@ -25,20 +25,24 @@ jobs:
         run: |
           # Clear out the old files
           rm -rf assets/tracking_data/*
-          echo "Contents of assets/tracking_data after cleanup:"
-          ls -la assets/tracking_data || echo "assets/tracking_data directory is empty"
-          # Recreate the directory and copy the new files
           mkdir -p assets/tracking_data
+          echo "Contents of tracking_data before copy:"
+          ls -la tracking_data || echo "tracking_data directory is empty"
           cp tracking_data/*.csv assets/tracking_data/ || echo "No CSV files found"
           cp tracking_data/*.txt assets/tracking_data/ || echo "No TXT files found"
+          echo "Contents of assets/tracking_data after copy:"
+          ls -la assets/tracking_data || echo "assets/tracking_data directory is empty"
+
+      - name: Debug Assets Directory
+        run: |
+          echo "Contents of assets/tracking_data:"
+          ls -la assets/tracking_data
 
       - name: Update Index with Latest Files
         run: |
-          # Identify the latest files in the assets directory
-          LATEST_CSV=$(ls -t assets/tracking_data/*.csv | head -n 1 | xargs -n 1 basename)
-          LATEST_TXT=$(ls -t assets/tracking_data/*.txt | head -n 1 | xargs -n 1 basename)
+          LATEST_CSV=$(ls -t assets/tracking_data/*.csv 2>/dev/null | head -n 1 | xargs -n 1 basename || echo "No CSV file found")
+          LATEST_TXT=$(ls -t assets/tracking_data/*.txt 2>/dev/null | head -n 1 | xargs -n 1 basename || echo "No TXT file found")
       
-          # Update index.md with the latest file links
           echo "---" > index.md
           echo "layout: default" >> index.md
           echo "title: Tracking Data" >> index.md
@@ -51,6 +55,10 @@ jobs:
           echo "- [CSV Report](/labelbox-tracking/assets/tracking_data/${LATEST_CSV})" >> index.md
           echo "- [TXT Report](/labelbox-tracking/assets/tracking_data/${LATEST_TXT})" >> index.md
 
+      - name: Debug Jekyll Build Output
+        run: |
+          echo "Contents of the build output directory (_site):"
+          ls -la _site/assets/tracking_data || echo "assets/tracking_data not found in _site"
 
 
       - name: Debug Updated Index
