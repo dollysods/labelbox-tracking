@@ -25,6 +25,8 @@ jobs:
         run: |
           # Clear out the old files
           rm -rf assets/tracking_data/*
+          echo "Contents of assets/tracking_data after cleanup and copy:"
+          ls -la assets/tracking_data || echo "assets/tracking_data directory is empty"
           # Recreate the directory and copy the new files
           mkdir -p assets/tracking_data
           cp tracking_data/*.csv assets/tracking_data/ || echo "No CSV files found"
