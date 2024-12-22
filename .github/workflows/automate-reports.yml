@@ -2,7 +2,7 @@ name: Automate Reports Workflow
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 6 * * *'  # Runs every day at 6 AM UTC
 
 jobs:
   generate-and-process-reports:
@@ -12,18 +12,22 @@ jobs:
       PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
     steps:
+      # Step 1: Checkout Repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      # Step 2: Set Up Python
       - name: Set Up Python
         uses: actions/setup-python@v3
         with:
           python-version: '3.x'
 
+      # Step 3: Install Dependencies
       - name: Install Dependencies
         run: |
           pip install python-dotenv pandas requests msal labelbox
 
+      # Step 4: Debug Secrets Presence
       - name: Debug Secrets Presence
         run: |
           if [ -z "$LABELBOX_API_KEY" ]; then
@@ -39,15 +43,23 @@ jobs:
             echo "PERSONAL_ACCESS_TOKEN is set."
           fi
 
+      # Step 5: Run Export and Processing Scripts
       - name: Run tracking_export.py
         run: python tracking_export.py
-
       - name: Run labelbox-tracking-txt.py
         run: python labelbox-tracking-txt.py
-
       - name: Run labelbox-tracking-csv.py
         run: python labelbox-tracking-csv.py
 
+      # Step 6: Debug Exported Files
+      - name: Debug Exported Files
+        run: |
+          echo "Contents of exports directory:"
+          ls -la exports
+          echo "Contents of tracking_data directory:"
+          ls -la tracking_data
+
+      # Step 7: Commit and Push Outputs
       - name: Commit and Push Outputs
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
@@ -57,9 +69,11 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/dollysods/labelbox-tracking.git
           git remote -v  # Debugging: Check if remote URL is set correctly
           git add exports/*.ndjson exports/*.csv tracking_data/*.txt tracking_data/*.csv
+          git status  # Debugging: Show changes to be committed
           git commit -m "Automated Export and Report Generation: $(date)" || echo "No changes to commit"
           git push origin main
 
+      # Step 8: Trigger Deploy Jekyll Workflow
       - name: Trigger Deploy Jekyll Workflow
         run: |
           curl -X POST \
