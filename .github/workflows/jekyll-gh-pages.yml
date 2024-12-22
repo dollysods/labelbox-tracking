@@ -5,7 +5,7 @@ on:
     branches: ["main"]
   workflow_dispatch:
   repository_dispatch:
-    types: [deploy-jekyll]
+    types: [deploy-jekyll] # Triggered by Automate Reports Workflow
 
 permissions:
   contents: read
@@ -27,19 +27,19 @@ jobs:
       # Step 2: Copy Tracking Data to Assets Directory
       - name: Copy Tracking Data
         run: |
-          # Clear out the old files in the assets directory
+          echo "Clearing and copying latest tracking files..."
           rm -rf assets/tracking_data/*
           mkdir -p assets/tracking_data
 
           echo "Contents of tracking_data before processing:"
           ls -la tracking_data || echo "tracking_data directory is empty"
 
-          # Identify the two newest files based on their filenames
+          # Identify the two newest files
           NEWEST_FILES=$(ls tracking_data/* | grep -E "tracking_report_[0-9]{4}-[0-9]{2}-[0-9]{2}" | sort -r | head -n 2)
           echo "Newest files to copy:"
           echo "${NEWEST_FILES}"
 
-          # Copy the newest files to the assets/tracking_data directory
+          # Copy the newest files to the assets directory
           for FILE in ${NEWEST_FILES}; do
             cp "$FILE" assets/tracking_data/
           done
@@ -47,10 +47,10 @@ jobs:
           echo "Contents of assets/tracking_data after processing:"
           ls -la assets/tracking_data || echo "assets/tracking_data directory is empty"
 
-
       # Step 3: Update index.md with the Latest Files
       - name: Update Index with Latest Files
         run: |
+          echo "Updating index.md with latest file links..."
           LATEST_CSV=$(ls -t assets/tracking_data/*.csv 2>/dev/null | head -n 1 | xargs -n 1 basename || echo "No CSV file found")
           LATEST_TXT=$(ls -t assets/tracking_data/*.txt 2>/dev/null | head -n 1 | xargs -n 1 basename || echo "No TXT file found")
 
