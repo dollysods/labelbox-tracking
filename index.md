@@ -13,7 +13,6 @@ Download the latest tracking data below:
 <a href="#" id="refresh-link">Refresh Data</a>
 <p id="status-message"></p>
 
-{% raw %}
 <script>
   document.getElementById("refresh-link").addEventListener("click", async (event) => {
     event.preventDefault(); // Prevent the link from navigating away
@@ -42,4 +41,3 @@ Download the latest tracking data below:
     }
   });
 </script>
-{% endraw %}
