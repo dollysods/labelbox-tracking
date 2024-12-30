@@ -10,12 +10,14 @@ Download the latest tracking data below:
 - [CSV Report](/labelbox-tracking/assets/tracking_data/{{LATEST_CSV}})
 - [TXT Report](/labelbox-tracking/assets/tracking_data/{{LATEST_TXT}})
 
-<button id="refresh-data">Refresh Data</button>
+<a href="#" id="refresh-link">Refresh Data</a>
 <p id="status-message"></p>
 
 {% raw %}
 <script>
-  document.getElementById("refresh-data").addEventListener("click", async () => {
+  document.getElementById("refresh-link").addEventListener("click", async (event) => {
+    event.preventDefault(); // Prevent the link from navigating away
+
     const statusMessage = document.getElementById("status-message");
     statusMessage.textContent = "Refreshing data...";
 
@@ -23,7 +25,7 @@ Download the latest tracking data below:
       const response = await fetch("https://api.github.com/repos/dollysods/labelbox-tracking/dispatches", {
         method: "POST",
         headers: {
-          "Accept": "application/vnd.github.v3+json",
+          "Accept": "application/vnd.github.v3+json"
         },
         body: JSON.stringify({
           event_type: "trigger-refresh" // Matches the event type in the workflow
