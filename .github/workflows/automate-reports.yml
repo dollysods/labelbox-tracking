@@ -3,7 +3,10 @@ name: Automate Reports Workflow
 on:
   schedule:
     - cron: '0 6 * * *'  # Runs every day at 6 AM UTC
-
+  workflow_dispatch:
+  repository_dispatch:
+    types: [trigger-refresh]
+  
 jobs:
   generate-and-process-reports:
     runs-on: ubuntu-latest
