@@ -1,0 +1,21 @@
+name: Trigger Refresh Workflow
+
+on:
+  repository_dispatch:
+    types: [trigger-refresh]
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Call Automate Reports Workflow
+        env:
+          PAT_TOKEN: ${{ secrets.PRIVATE_ACCESS_TOKEN }}
+        run: |
+          echo "Triggering Automate Reports Workflow..."
+          curl -X POST \
+            -H "Authorization: token $PAT_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/dollysods/labelbox-tracking/actions/workflows/automate-reports.yml/dispatches \
+            -d '{"ref":"main"}'
