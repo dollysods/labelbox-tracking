@@ -54,6 +54,7 @@ jobs:
           LATEST_CSV=$(ls -t assets/tracking_data/*.csv 2>/dev/null | head -n 1 | xargs -n 1 basename || echo "No CSV file found")
           LATEST_TXT=$(ls -t assets/tracking_data/*.txt 2>/dev/null | head -n 1 | xargs -n 1 basename || echo "No TXT file found")
 
+          # Write the initial part of the index.md
           echo "---" > index.md
           echo "layout: default" >> index.md
           echo "title: Tracking Data" >> index.md
@@ -65,6 +66,44 @@ jobs:
           echo "" >> index.md
           echo "- [CSV Report](/labelbox-tracking/assets/tracking_data/${LATEST_CSV})" >> index.md
           echo "- [TXT Report](/labelbox-tracking/assets/tracking_data/${LATEST_TXT})" >> index.md
+          echo "" >> index.md
+
+          # Append the JavaScript and additional content
+          cat << 'EOF' >> index.md
+<a href="#" id="refresh-link">Refresh Data</a>
+<p id="status-message"></p>
+
+{% raw %}
+<script>
+  document.getElementById("refresh-link").addEventListener("click", async (event) => {
+    event.preventDefault(); // Prevent the link from navigating away
+
+    const statusMessage = document.getElementById("status-message");
+    statusMessage.textContent = "Refreshing data...";
+
+    try {
+      const response = await fetch("https://api.github.com/repos/dollysods/labelbox-tracking/dispatches", {
+        method: "POST",
+        headers: {
+          "Accept": "application/vnd.github.v3+json"
+        },
+        body: JSON.stringify({
+          event_type: "trigger-refresh" // Matches the event type in the workflow
+        }),
+      });
+
+      if (response.ok) {
+        statusMessage.textContent = "Workflow triggered successfully!";
+      } else {
+        statusMessage.textContent = `Failed to trigger workflow: ${response.statusText}`;
+      }
+    } catch (error) {
+      statusMessage.textContent = `Error: ${error.message}`;
+    }
+  });
+</script>
+{% endraw %}
+EOF
 
       # Step 4: Debug Updated Index
       - name: Debug Updated Index
