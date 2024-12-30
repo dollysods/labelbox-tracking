@@ -7,8 +7,7 @@ title: Daily Tracking Reports
 
 Download the latest tracking data below:
 
-- [CSV Report](/labelbox-tracking/assets/tracking_data/{{LATEST_CSV}})
-- [TXT Report](/labelbox-tracking/assets/tracking_data/{{LATEST_TXT}})
+<!-- TRACKING_DATA_LINKS -->
 
 <a href="#" id="refresh-link">Refresh Data</a>
 <p id="status-message"></p>
