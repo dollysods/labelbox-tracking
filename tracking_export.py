@@ -78,6 +78,20 @@ filters = {
 }
 
 project_categories = {
+    "Core_Reader_A_Full_Sets":
+  [
+        "cm56yto58029j070c8f0mb4g7",
+        "cm56ystwv102c07ziftps4nw2",
+        "cm56ys1d913mx07z7dxr4erxz",
+        "cm56yr4jn0tgf07zhd4a7hbcv",
+        "cm56yq07v0erk07xi752weo0c",
+        "cm56yp5lq03bt070j9zyt4e3m",
+        "cm56yoar313h807z7dcrmf7zn",
+        "cm56ynh6l13xc072c5ni709vf",
+        "cm56ymbcl13eb07z7hl0284qu",
+        "cm56ykcsl03qf07y78dv6buqs",
+        "cm56yj0oc0l22070z19md4n5j",
+  ],
     "Core_Reader_A": [
         "cm4j0z7u601b0073tcav1flz6",
         "cm4j0xtxy01e2072q0f8gcg6r",
@@ -90,23 +104,6 @@ project_categories = {
         "cm4j0sb5x016y072qdepx9uju",
         "cm4j0re6m011v07394fu25lgd",
         "cm4j0mw7a011r076hhm2wbwxj",
-    ],
-    "Finding_the_Context_Second_Round": [
-        "cm4hj881e08xk071n1etafplf",
-        "cm4hj7p52040s07zx51r63kvn",
-        "cm4hj79b705rh071r2c7o9oxu",
-        "cm4hj6v7i03hj073j5gej9rc5",
-        "cm4hj6fmn01vq07zz9ajab9n7",
-        "cm4hj5zol03y907zx8g9vfyt9",
-        "cm4hj5k79047f073maiwi5qg2",
-        "cm4hj513d05bp0723b2qw2xls",
-        "cm4hj3uws04fg07x781btdva3",
-        "cm4hj2wnw046p070eh6u6ck1n",
-        "cm4hj2a1804f10708brfo7ymo",
-    ],
-    "Compare_and_Contrast_Second_Round": [
-        "cm4hfnhzl082n07v0evnf2yf9",
-        "cm4hfmz8607ov07tlg8zw6oh2",
     ],
     "Key_to_Evidence_Fiction": [
         "cm0mi7gd80gsh070gdql241nq",
