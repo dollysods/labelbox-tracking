@@ -138,7 +138,7 @@ project_categories = {
       "cm66ucvcj0fmg07xbeqo26hlp",
       "cm66ubdeq0gml0706aiwk6rsb",
 
-  "Core_Reader_A_Full_Sets":
+  "Core_Reader_A_Batch_2":
 [
       "cm56yto58029j070c8f0mb4g7",
       "cm56ystwv102c07ziftps4nw2",
@@ -152,7 +152,7 @@ project_categories = {
       "cm56ykcsl03qf07y78dv6buqs",
       "cm56yj0oc0l22070z19md4n5j",
 ],
-  "Core_Reader_A": [
+  "Core_Reader_A_Batch_1": [
       "cm4j0z7u601b0073tcav1flz6",
       "cm4j0xtxy01e2072q0f8gcg6r",
       "cm4j0x7i201bf072n3h825725",
