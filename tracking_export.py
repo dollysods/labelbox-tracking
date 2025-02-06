@@ -78,6 +78,34 @@ filters = {
 }
 
 project_categories = {
+    "Core_Reader_C_High_School":
+  [
+        "cm66znmw90eyx07271qgj0g71",
+        "cm66zn5v10hrz071s2f2ifkzw",
+        "cm66zh03c0a84073m75cw3a1c",
+        "cm66zg4ad0gxq071sbbfdfcah",
+        "cm66zegrg0hvy071bhlsl212f",
+        "cm66zdg1h09qr071oauybdt5b",
+        "cm66zcggq0hku073601v61du4",
+        "cm66z7o9d09f3072tbp12frns",
+  ],
+    "Core_Reader_B_2nd_to_8th":
+[
+        "cm66uqoll00wx07y65f7i14js",
+        "cm66ups5y04ih071b8fsdb15z",
+        "cm66uortn03sm071o055d40pw",
+        "cm66untag0h7x0706e1fqew7r",
+        "cm66umtwa0fw5072bejzm25yy",
+        "cm66ulvq70fho073adzg62nf2",
+        "cm66ukd0n032n070shez40b9f",
+        "cm66ujg1o0fpi072b44wb9uwr",
+        "cm66ui6ut03fu071sgr8q0hz7",
+        "cm66uh6e00gwu07067nr4bvrs",
+        "cm66ug0ez03fi071ocgt44pzv",
+        "cm66uezne03zt07366rn96y9e",
+        "cm66ucvcj0fmg07xbeqo26hlp",
+        "cm66ubdeq0gml0706aiwk6rsb",
+
     "Core_Reader_A_Full_Sets":
   [
         "cm56yto58029j070c8f0mb4g7",
@@ -104,20 +132,6 @@ project_categories = {
         "cm4j0sb5x016y072qdepx9uju",
         "cm4j0re6m011v07394fu25lgd",
         "cm4j0mw7a011r076hhm2wbwxj",
-    ],
-    "Key_to_Evidence_Fiction": [
-        "cm0mi7gd80gsh070gdql241nq",
-        "clzn4056c09od07134mgfa53g",
-        "clzimloj200ji07vo8eb25bi4",
-        "clzimjiqz00vc07s6dl104cu4",
-        "clzimi7vt09hx07u545wp2qp0",
-        "clzimg7ly0cng07vqd66lfvp6",
-        "clzimcsvd000f07ukfmmv8eq8",
-        "clzimbi9t043q07vwf3ejdpa0",
-        "clzimai5g043f07vw4yef58mx",
-        "clzim9jmm00gx07ua7it8fj77",
-        "clzim89cw03mq07u02xop2321",
-        "clzim79mz050407vjgrs95vad",
     ]
 }
 
