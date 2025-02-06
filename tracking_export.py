@@ -111,7 +111,7 @@ project_categories = {
     "cm6ttvnov002a072f00m94xnk"
   ],
   "Core_Reader_C_High_School":
-[
+  [
       "cm66znmw90eyx07271qgj0g71",
       "cm66zn5v10hrz071s2f2ifkzw",
       "cm66zh03c0a84073m75cw3a1c",
@@ -120,9 +120,9 @@ project_categories = {
       "cm66zdg1h09qr071oauybdt5b",
       "cm66zcggq0hku073601v61du4",
       "cm66z7o9d09f3072tbp12frns",
-],
+  ],
   "Core_Reader_B_2nd_to_8th":
-[
+  [
       "cm66uqoll00wx07y65f7i14js",
       "cm66ups5y04ih071b8fsdb15z",
       "cm66uortn03sm071o055d40pw",
@@ -137,9 +137,10 @@ project_categories = {
       "cm66uezne03zt07366rn96y9e",
       "cm66ucvcj0fmg07xbeqo26hlp",
       "cm66ubdeq0gml0706aiwk6rsb",
+  ],
 
   "Core_Reader_A_Batch_2":
-[
+  [
       "cm56yto58029j070c8f0mb4g7",
       "cm56ystwv102c07ziftps4nw2",
       "cm56ys1d913mx07z7dxr4erxz",
@@ -151,7 +152,7 @@ project_categories = {
       "cm56ymbcl13eb07z7hl0284qu",
       "cm56ykcsl03qf07y78dv6buqs",
       "cm56yj0oc0l22070z19md4n5j",
-],
+  ],
   "Core_Reader_A_Batch_1": [
       "cm4j0z7u601b0073tcav1flz6",
       "cm4j0xtxy01e2072q0f8gcg6r",
